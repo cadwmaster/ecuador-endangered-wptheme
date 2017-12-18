@@ -623,3 +623,20 @@ section#custom-sidebar {
 .content.social-networks .facebook-link {
     background-image: url(./images/facebook_logo.png);
 }
+
+/* WIDGET NEWSLETTER */
+
+.content .clear {
+    margin-top: 20px;
+}
+
+.content input[type="submit"] {
+    background-color: var(--color-button);
+    border-radius: 5px;
+    width: 220px;
+}
+
+.content input[type="submit"]:hover {
+    background-color: var(--color-button);
+}
+
