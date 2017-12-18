@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-12-11 21:58+0100\n"
+"PO-Revision-Date: 2017-12-11 22:42+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:48
+msgid "Menu"
+msgstr ""
+
+#: index.php:9
+msgid "slogan"
+msgstr "this is the slogan"
+
+#: index.php:13
+msgid "take action"
+msgstr "take action"
+
+#: index.php:35
+msgid "Previous page"
+msgstr ""
+
+#: index.php:36
+msgid "Next page"
+msgstr ""
+
+#: index.php:37 template-parts/content.php:32
+msgid "Page"
+msgstr ""
+
+#: template-parts/content.php:23
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:28
+msgid "Pages:"
+msgstr ""

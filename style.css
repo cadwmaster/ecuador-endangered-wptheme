@@ -1,0 +1,582 @@
+/*
+Theme Name: Twenty sixteen Child
+Theme URI: http://example.com/twenty-sixteen-child/
+Description: Twenty sixteen Child Theme
+Author: Christian Andrade
+Author URI: http://example.com
+Template: twentysixteen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-sixteen-child
+*/
+
+:root {
+    --font-color-first: white;
+    --font-color-second: #24495f;
+    --font-color-third: #151525;
+    --font-color-fourd: #446b82;
+    --color-divider: lightgrey;
+    --color-button: #3b8698;
+
+    --font-size-xxl: 60px;
+    --font-size-xl: 36px;
+    --font-size-l: 30px;
+    --font-size-m: 24px;
+    --font-size-s: 20px;
+    --font-size-xs: 16px;
+
+    --background-color-main: #24495f;
+    --background-color-second: #446b82;
+}
+
+body {
+    background-color: var(--background-color-main);
+    color: black;
+}
+
+body:not(.custom-background-image):before,
+body:not(.custom-background-image):after {
+    height: 0px;
+}
+
+.site {
+    margin: 0px;
+}
+.site-inner {
+    max-width: none;
+}
+
+/* HEADER */
+
+.site-header-menu {
+    color: var(--font-color-first);
+    width: 60%;
+}
+
+.main-navigation {
+    opacity: 1;
+    font-size: var(--font-size-s);
+    font-weight: bold;
+}
+
+.main-navigation a {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;    
+}
+
+.main-navigation a:hover {
+    border-bottom: 2px solid white;
+}
+
+.site-header {
+    background-color:  var(--background-color-main);
+    height: 80px;
+    padding-top: 0px;
+ }
+
+ .site-content {
+     padding: 0px;
+ }
+
+ .content-area {
+     margin-left: 3em;
+ }
+
+ .content-area.home {
+    float: none;
+    margin-right: 0;
+    width: 90%;
+ }
+
+ #main-banner {
+    background-image:  url("./images/slogan-background.jpg");
+    height: 700px;
+    background-position-x: -100px;
+    background-position-y: -100px;
+    position: relative;
+ }
+
+ #main-banner .content {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    top: 200px;
+    color: white;    
+    text-align: center;
+ }
+
+ #main-banner .content .logo {
+    background-image:  url("./images/logo.png");
+    width: 100%;
+    height: 168px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+ #main-banner .content .slogan {
+    margin-top: 50px;
+    font-size: var(--font-size-xl);
+ }
+
+ #take-action {
+     height: 160px;
+     background-color: #151525;
+ }
+
+ #take-action .button-action {
+    float: right;
+    margin-top: 30px;
+    margin-right: -10px;
+    width: 212px;
+    height: 80px;
+    background-color: var(--color-button);
+    color: white;
+    text-align: center;
+    line-height: 83px;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+ /* BUTTONS */
+
+ .button_light {
+    background-color: white;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: var(--font-size-s);
+    color: #24495f;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .button_transparent {
+    background-color: transparent;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: var(--font-size-s);
+    color: white;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ /* News */
+
+ section#news .entry-image {
+    position: absolute;
+ }
+
+ section#news .entry-content {
+     float: none;
+ }
+
+ section#news .content-wrapper {
+    position: relative;
+    width: 60%;
+    margin-left: 40%;
+    top: 30px;
+    background-color: white;
+    padding: 10px;
+ }
+
+.news-slider .text-content {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+background-color: rgba(255, 255, 255, 0.9);
+padding: 1em;
+width: 30%;
+height: 100%;
+}
+.news-slider .text-content h2 {
+margin: 0;
+}
+.news-slider .text-content p {
+margin: 1em 0;
+}
+.news-slider .text-content a.button-link {
+padding: 0.25em 0.5em;
+position: absolute;
+bottom: 1em;
+right: 1em;
+}
+.news-slider .image-content {
+line-height: 0;
+}
+.news-slider .image-content img {
+max-width: 100%;
+}
+.news-slider .news-pager {
+text-align: right;
+display: block;
+margin: 0.2em 0 0;
+padding: 0;
+list-style: none;
+}
+.news-slider .sy-pager li {
+    width: 1em;
+    height: 1em;
+}
+.news-slider li.sy-active a {
+    background-color:  var(--background-color-main);
+
+}
+
+/* ************** */
+/* TEMPLATE PARTS */
+/* ************** */
+
+/* GENERAL - PICTURE BAR */
+
+.pictures-bar {
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.pictures-bar .image {
+    text-align: center;
+    width: 20%;
+    flex: 1;
+    max-height: 160px;
+}
+
+/* TAKE ACTION CONTENT */
+
+.content-take_action {
+    width: 100%;
+    font-size: 0;
+}
+
+.content-take_action > div {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    font-size: var(--font-size-xs);
+    color: var(--font-color-first);
+    text-align: center;
+    vertical-align: top;
+    height: 700px;
+}
+
+.content-take_action .international {
+    background-color:  var(--background-color-main); 
+}
+
+.content-take_action .ecuador {
+    background-color: #446b82;
+}
+
+.content-take_action .title {
+    margin-top: 100px;
+    font-size: var(--font-size-xl);
+    text-transform: uppercase;
+}
+
+.content-take_action .subtitle {
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.content-take_action .description {
+    font-size: var(--font-size-xs);
+    margin-top: 40px;
+}
+
+.content-take_action .links {
+    margin-top: 110px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-take_action .links > div {
+    margin-top: 30px;
+}
+
+/* TAKE ACTION - HEADER */
+
+.take_action-header {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.take_action-header > div {
+    text-align: center;
+}
+
+.take_action-header .title {
+    margin-top: 10px;
+    font-size: var(--font-size-xxl);
+    color: var(--font-color-second);
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.take_action-header .subtitle {
+    margin-top: 106px;
+    font-size: var(--font-size-m);
+    color: var(--font-color-third);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.take_action-header .description {
+    margin-top: 50px;
+    font-size: var(--font-size-m);
+    color: var(--font-color-third);
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+
+/* TAKE ACTION - SIGN PETITION */
+
+.take_action-sign_petition {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.take_action-sign_petition .petition {
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    min-height: 500px;
+    width: 40%;
+    flex: 1;
+    border: 1px solid var(--color-divider);
+}
+
+.petition .title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: var(--font-size-xxl);
+    color: var(--font-color-second);
+    font-weight: bolder;
+}
+
+.petition .subtitle {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: var(--font-size-m);
+    color: var(--font-color-fourd);
+    font-weight: lighter;
+}
+
+.petition .description {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: var(--font-size-l);
+    color: var(--font-color-second);
+    font-weight: normal; 
+    min-height: 150px;
+}
+
+.petition .container-petition {
+    margin-top: 80px;
+}
+
+.wrapper-petition {
+    text-align: center;
+    width: 300px;
+    border: 1px solid var(--color-divider);
+    margin: 0px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wrapper-petition .supporters {
+    font-size: var(--font-size-xs);
+    color: var(--font-color-third);
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper-petition .image{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.wrapper-petition .image.supporters{
+    background-image: url(./images/supporters_image.jpg);
+}
+
+.wrapper-petition .image.crowfunding{
+    background-image: url(./images/crowdfunding_image.jpg);
+}
+
+.wrapper-petition .description {
+    margin-top: 10px;
+    font-size: var(--font-size-xs);
+    color: var(--font-color-second);
+    padding: 0px 5px;
+    min-height: 140px;
+}
+
+.wrapper-petition .button-sign {
+    background-color: var(--color-button);
+    padding: 0px 5px;
+    color: var(--font-color-first);
+    text-transform: uppercase;
+    height: 60px;
+}
+
+/* TAKE ACTION - EXPLANATION */
+
+.take_action-explanation {
+    margin: 0 auto;
+    display: flex;
+}
+
+.take_action-explanation .explanation {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    min-height: 500px;
+    width: 40%;
+    flex: 1;
+}
+
+.explanation.signature {
+    background-color: var(--background-color-main);
+}
+
+.explanation.contribution {
+    background-color: var(--background-color-second);
+}
+
+.explanation .title {
+    margin-top: 135px;
+    font-size: var(--font-size-xxl);
+    color: var(--font-color-first);
+}
+
+.explanation .description {
+    margin-top: 65px;
+    font-size: var(--font-size-m);
+    color: var(--font-color-first);
+    min-height: 300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explanation .description p {
+    margin-top: 10px;
+}
+
+.take_action-extras {
+    margin: 0 auto;
+    display: flex;
+}
+
+.take_action-extras .extra {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    text-align: center;
+    min-height: 500px;
+    width: 40%;
+    flex: 1;
+    border: 1px solid var(--color-divider);
+    
+}
+
+.extra .title {
+    margin-top: 100px;
+    font-size: var(--font-size-xxl);
+    color: var(--font-color-second);
+}
+
+.extra .subtitle {
+    margin-top: 65px;
+    font-size: var(--font-size-m);
+    color: var(--font-color-fourd);
+    min-height: 100px;
+}
+
+.extra .container {
+    margin-top: 20px;
+}
+
+/* ******* */
+/* SIDEBARS */
+/* ******* */
+
+section#custom-sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ******* */
+/* WIDGETS */
+/* ******* */
+
+.widget-content {
+    margin: 50px 20px;
+    max-width: 30%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.widget-content h3 {
+    text-transform: uppercase;
+    color: var(--font-color-third);
+    font-size: var(--font-size-s);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.widget-content .subtitle {
+    color: var(--font-color-fourd);
+}
+.widget-content .content {
+    margin-top: 40px;
+}
+
+.widget-content .content {
+    margin-top: 40px;
+}
+
+/* WIDGET CUSTOM CONTENT */
+.content.social-networks a {
+    display: inline-block;
+    border: 0px;
+    margin: 10px;
+}
+.content.social-networks div {
+    width: 87px;
+    height: 85px;
+}
+
+.content.social-networks .youtube-link {
+    background-image: url(./images/youtube_logo.png);
+
+}
+.content.social-networks .facebook-link {
+    background-image: url(./images/facebook_logo.png);
+}
