@@ -55,7 +55,17 @@ function enqueue_scripts() {
 }
 
 function submit_volunteer() {
-    echo 'a';
+    $name = ($_POST['firstName']). ' ' . ($_POST['firstName']);
+    $email = ($_POST['email']);
+
+    $subject = 'Volunteer: ' . $name;
+
+    $body = 'New volunteer:\n';
+    $body .= "Name: ".$name."\n";
+    $body .= "Email: ".$email."\n";
+    $headers = array('Content-Type: text/html; charset=UTF-8', 'From: EcuadorEndangered <info@ecuadorendangered.com>');
+
+    wp_mail( 'volunteers@ecuadorendangered.com', $subject, $body, $headers );
     die();
 }
 
