@@ -1,14 +1,7 @@
 /*
 Theme Name: Twenty sixteen Child
-Theme URI: http://example.com/twenty-sixteen-child/
-Description: Twenty sixteen Child Theme
 Author: Christian Andrade
-Author URI: http://example.com
 Template: twentysixteen
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain: twenty-sixteen-child
 */
 
@@ -640,13 +633,13 @@ section#custom-sidebar {
 }
 
 .site-footer .site-info .title {
-    flex-grow: 1;
+    flex: 1;
     text-align: left;
 }
 
 .site-footer .site-info .logo {
     margin: 0 auto;
-    flex-grow: 4;
+    flex: 2;
     text-align: center;
 }
 
@@ -656,7 +649,7 @@ section#custom-sidebar {
 }
 
 .site-footer .site-info .copywrite {
-    flex-grow: 1;
+    flex: 1;
     text-align: right;
 }
 
@@ -665,7 +658,7 @@ section#custom-sidebar {
 /* ******* */
 
 .widget-content {
-    margin: 50px 20px;
+    margin: 50px 40px;
     max-width: 30%;
     text-align: center;
     display: inline-block;

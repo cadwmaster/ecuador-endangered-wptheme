@@ -1,19 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: EcuadorEndangered\n"
-"POT-Creation-Date: 2017-12-19 01:27+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-
-#: footer.php:26
-msgid "footer copywrite"
-msgstr ""
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: EcuadorEndangered\n"
+"Language: en\n"
 
 #: functions.php:32
 msgid "Custom"
@@ -25,7 +17,7 @@ msgstr ""
 
 #: functions/widget-login-forum.php:18
 msgid "widget login forum description"
-msgstr ""
+msgstr "Get access to our forum"
 
 #: functions/widget-login-forum.php:20
 msgid "widget login forum"
@@ -37,11 +29,11 @@ msgstr "Access our Forum"
 
 #: functions/widget-login-forum.php:37
 msgid "widget login forum subtitle"
-msgstr "Get access or create an account "
+msgstr "Get access or create an account"
 
 #: functions/widget-newsletter.php:18
 msgid "widget newsletter description"
-msgstr ""
+msgstr "Receive all our updates by email"
 
 #: functions/widget-newsletter.php:20
 msgid "widget newsletter"
@@ -53,17 +45,11 @@ msgstr "Newsletter"
 
 #: functions/widget-newsletter.php:37
 msgid "widget newsletter subtitle"
-msgstr "Receive all our updates by email "
-
-#: functions/widget-newsletter.php:49
-#, fuzzy
-#| msgid "widget newsletter title"
-msgid "widget newsletter button suscribe"
-msgstr "Newsletter"
+msgstr "Receive all our updates by email"
 
 #: functions/widget-social-networks.php:18
 msgid "widget social networks description"
-msgstr ""
+msgstr "Follow and watch us on socialmedia"
 
 #: functions/widget-social-networks.php:20
 msgid "widget social networks"
@@ -91,9 +77,7 @@ msgstr ""
 
 #: index.php:9
 msgid "slogan"
-msgstr ""
-"No toxic mining in fragile ecosystems, communities, watersources, indigenous "
-"territories. \n"
+msgstr "No toxic mining in fragile ecosystems, communities, watersources, indigenous territories. \n"
 "This is a fight for Ecuador. \n"
 "#savetheandes"
 
@@ -102,17 +86,16 @@ msgid "take action"
 msgstr "Take Action"
 
 #: template-parts/content.php:23
-#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #: template-parts/content.php:28
 msgid "Pages:"
-msgstr ""
+msgstr "Pages:"
 
 #: template-parts/content.php:32
 msgid "Page"
-msgstr ""
+msgstr "Page"
 
 #: template-parts/home-take_action.php:14
 msgid "take_action_international title"
@@ -144,9 +127,7 @@ msgstr "For ecuadorians"
 
 #: template-parts/home-take_action.php:25
 msgid "take_action_ecuador description"
-msgstr ""
-"Tell the government of Ecuador to listen to its people and stop mining in "
-"vital ecosystems."
+msgstr "Tell the government of Ecuador to listen to its people and stop mining in vital ecosystems."
 
 #: template-parts/home-take_action.php:27
 msgid "take_action_ecuador sign"
@@ -162,21 +143,11 @@ msgstr "Your signature"
 
 #: template-parts/take_action-explanation.php:11
 msgid "take_action_explanation signature description"
-msgstr ""
-"“Ecuador has the highest biodiversity per square kilometer of any nation. In "
-"the last year, the Ecuadorian government has quietly granted mining "
-"concessions to over 1.7 million hectares (4.25 million acres) of protected "
-"forests and indigenous territories. These exploratory concessions were "
-"awarded to transnational corporations in closed-door deals without public "
-"knowledge or consent.\n"
+msgstr "Ecuador has the highest biodiversity per square kilometer of any nation. In the last year, the Ecuadorian government has quietly granted mining concessions to over 1.7 million hectares (4.25 million acres) of protected forests and indigenous territories. These exploratory concessions were awarded to transnational corporations in closed-door deals without public knowledge or consent.\n"
 "\n"
-"This is in direct violation of Ecuadorian law and international treaties, "
-"and will decimate headwater ecosystems and biodiversity hotspots of global "
-"significance.\n"
+"This is in direct violation of Ecuadorian law and international treaties, and will decimate headwater ecosystems and biodiversity hotspots of global significance.\n"
 "\n"
-"Your signature helps us and our Ecuadorian partners take a stand to defend "
-"these forests, their amazing diversity of peoples and wildlife, and their "
-"critical contributions to the biosphere on which we all depend.”"
+"Your signature helps us and our Ecuadorian partners take a stand to defend these forests, their amazing diversity of peoples and wildlife, and their critical contributions to the biosphere on which we all depend."
 
 #: template-parts/take_action-explanation.php:14
 msgid "take_action_explanation contribution title"
@@ -184,23 +155,11 @@ msgstr "Donate to the cause"
 
 #: template-parts/take_action-explanation.php:15
 msgid "take_action_explanation contribution description"
-msgstr ""
-"“We are crowdfunding to support Ecuadorians demand that the government "
-"rescind these ridiculous new mining concessions and prohibit mining in "
-"protected areas.\n"
+msgstr "We are crowdfunding to support Ecuadorians demand that the government rescind these ridiculous new mining concessions and prohibit mining in protected areas.\n"
 "\n"
-"*Paul Gilding, ex-CEO of Greenpeace International, is matching the first "
-"$15,000 of donations dollar for dollar. He’s a good guy. And good guys don’t "
-"let ecosystems get decimated.* \n"
+"*Paul Gilding, ex-CEO of Greenpeace International, is matching the first $15,000 of donations dollar for dollar. He’s a good guy. And good guys don’t let ecosystems get decimated.* \n"
 "\n"
-"Additionally, it will help fund a publicity campaign in Ecuador by the "
-"coalition of civil society groups to generate a national dialogue about "
-"development (“extractivism or a sustainable future?”). And also, kind of "
-"crucially, it will help develop an economic model for forest conservation "
-"and regeneration as an alternative to mining and other extractive "
-"industries. This will include demonstrating the economic, as well as the "
-"ecological and social, advantages of the “Costa Rica” model which is already "
-"showing excellent economic indicators without nasty mining).”"
+"Additionally, it will help fund a publicity campaign in Ecuador by the coalition of civil society groups to generate a national dialogue about development (“extractivism or a sustainable future?”). And also, kind of crucially, it will help develop an economic model for forest conservation and regeneration as an alternative to mining and other extractive industries. This will include demonstrating the economic, as well as the ecological and social, advantages of the “Costa Rica” model which is already showing excellent economic indicators without nasty mining)."
 
 #: template-parts/take_action-explanation.php:20
 msgid "take_action_explanation crowfunding title"
@@ -209,6 +168,50 @@ msgstr "Donate if you like life"
 #: template-parts/take_action-explanation.php:21
 msgid "take_action_explanation crowfunding subtitle"
 msgstr "Help us reach our goal and contribute what you can."
+
+#: template-parts/take_action-explanation.php:40
+msgid "take_action_explanation volunteers title"
+msgstr "Give your existence a purpose"
+
+#: template-parts/take_action-explanation.php:41
+msgid "take_action_explanation volunteers subtitle"
+msgstr "Some short explanation here about volunteering."
+
+#: template-parts/take_action-header.php:9
+msgid "take_action_header title"
+msgstr "Take Action"
+
+#: template-parts/take_action-header.php:10
+msgid "take_action_header subtitle"
+msgstr "A global call to action."
+
+#: template-parts/take_action-header.php:11
+msgid "take_action_header description"
+msgstr "If you want to save one of the world’s most valuable ecosystems you’ve come to the right petition."
+
+#: template-parts/take_action-sign_petition.php:10
+msgid "take_action_sign_petition ecuadorians title"
+msgstr "Sign the petition"
+
+#: template-parts/take_action-sign_petition.php:11
+msgid "take_action_sign_petition ecuadorians subtitle"
+msgstr "For Ecuadorians"
+
+#: template-parts/take_action-sign_petition.php:12
+msgid "take_action_sign_petition ecuadorians description"
+msgstr "Demand a change to the referendum question this January to  ‘Prohibit industrial mining in fragile and vital ecosystems, including protecting forests, watersheds and indigenous territories.’ And nothing less."
+
+#: template-parts/take_action-sign_petition.php:18
+msgid "take_action_sign_petition everyone title"
+msgstr "Sign the petition"
+
+#: template-parts/take_action-sign_petition.php:19
+msgid "take_action_sign_petition everyone subtitle"
+msgstr "For Anyone"
+
+#: template-parts/take_action-sign_petition.php:20
+msgid "take_action_sign_petition everyone description"
+msgstr "Urge the government of Ecuador to do the right thing. Industrial mining should be forbidden in all fragile & vital ecosystems, including Protecting Forests, Watersheds and Indigenous Territories."
 
 #: template-parts/take_action-explanation.php:25
 #: template-parts/take_action-sign_petition.php:24
@@ -225,78 +228,27 @@ msgstr "Sign the global petition with the rainforest information centre"
 msgid "take_action_sign_petition everyone supporters sign"
 msgstr "Sign Petition"
 
-#: template-parts/take_action-explanation.php:40
-msgid "take_action_explanation volunteers title"
-msgstr "Give your existence a purpose"
+#: footer.php:26
+msgid "footer copywrite"
+msgstr "© 2017. All rights reserved"
 
-#: template-parts/take_action-explanation.php:41
-msgid "take_action_explanation volunteers subtitle"
-msgstr "Some short explanation here about volunteering."
+#: functions/widget-newsletter.php:49
+msgid "widget newsletter button suscribe"
+msgstr "Subscribe"
 
 #: template-parts/take_action-explanation.php:46
-#, fuzzy
-#| msgid "take_action_explanation volunteers title"
 msgid "take_action_explanation volunteers input first_name placeholder"
-msgstr "Give your existence a purpose"
+msgstr "First name"
 
 #: template-parts/take_action-explanation.php:49
-#, fuzzy
-#| msgid "take_action_explanation volunteers title"
 msgid "take_action_explanation volunteers input last_name placeholder"
-msgstr "Give your existence a purpose"
+msgstr "Last name"
 
 #: template-parts/take_action-explanation.php:52
-#, fuzzy
-#| msgid "take_action_explanation volunteers title"
 msgid "take_action_explanation volunteers input email placeholder"
-msgstr "Give your existence a purpose"
+msgstr "Email"
 
 #: template-parts/take_action-explanation.php:56
-#, fuzzy
-#| msgid "take_action_explanation volunteers title"
 msgid "take_action_explanation volunteers button join"
-msgstr "Give your existence a purpose"
+msgstr "Submit"
 
-#: template-parts/take_action-header.php:9
-msgid "take_action_header title"
-msgstr "Take Action"
-
-#: template-parts/take_action-header.php:10
-msgid "take_action_header subtitle"
-msgstr "A global call to action."
-
-#: template-parts/take_action-header.php:11
-msgid "take_action_header description"
-msgstr ""
-"If you want to save one of the world’s most valuable ecosystems you’ve come "
-"to the right petition."
-
-#: template-parts/take_action-sign_petition.php:10
-msgid "take_action_sign_petition ecuadorians title"
-msgstr "Sign the petition"
-
-#: template-parts/take_action-sign_petition.php:11
-msgid "take_action_sign_petition ecuadorians subtitle"
-msgstr "For Ecuadorians"
-
-#: template-parts/take_action-sign_petition.php:12
-msgid "take_action_sign_petition ecuadorians description"
-msgstr ""
-"Demand a change to the referendum question this January to  ‘Prohibit "
-"industrial mining in fragile and vital ecosystems, including protecting "
-"forests, watersheds and indigenous territories.’ And nothing less."
-
-#: template-parts/take_action-sign_petition.php:18
-msgid "take_action_sign_petition everyone title"
-msgstr "Sign the petition"
-
-#: template-parts/take_action-sign_petition.php:19
-msgid "take_action_sign_petition everyone subtitle"
-msgstr "For Anyone"
-
-#: template-parts/take_action-sign_petition.php:20
-msgid "take_action_sign_petition everyone description"
-msgstr ""
-"Urge the government of Ecuador to do the right thing. Industrial mining "
-"should be forbidden in all fragile & vital ecosystems, including Protecting "
-"Forests, Watersheds and Indigenous Territories."
