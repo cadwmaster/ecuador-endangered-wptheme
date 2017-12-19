@@ -3,22 +3,29 @@ define( 'THEME_DIR', get_stylesheet_directory() );
 define( 'LIBS_DIR', THEME_DIR. '/functions' );
 
 add_action( 'wp_enqueue_scripts', 'slider');
-add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
+add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 add_action( 'after_setup_theme', 'my_child_theme_locale' );
 add_action( 'widgets_init', 'my_custom_sidebar' );
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
 add_action( 'wp_ajax_submit_volunteer', 'submit_volunteer');
 add_action( 'parse_text', 'parse_text');
 
+/**
+ * Custom template tags for this theme.
+ */
+
+require THEME_DIR . '/inc/template-tags.php';
+
 
 // add_action('wp_enqueue_scripts', 'slider_css');
 function slider() {
-    wp_enqueue_style( 'slider_css', get_stylesheet_directory_uri() . '/css/slippry.css');    
+    wp_enqueue_style( 'slider_css', get_stylesheet_directory_uri() . '/css/slippry.css');
     wp_enqueue_script( 'slider_js', get_stylesheet_directory_uri() . '/js/slider.js', array( 'jquery' ), '1.0', true );
 }
 
-function enqueue_parent_styles() {
-   wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css', array('slider_css') );
+function enqueue_styles() {
+   wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css', array('slider_css'));
+   wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'parent-style' ));
 }
 
 // Load translation files from your child theme instead of the parent theme

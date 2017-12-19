@@ -37,7 +37,7 @@ get_header(); ?>
 
 <?php 
 get_template_part( 'template-parts/general-pictures_bar');
-get_template_part( 'template-parts/home-take_action'); 
+get_template_part( 'template-parts/general-take_action'); 
 
 if ( is_active_sidebar( 'custom-side-bar' ) ) : 
 	echo '<section id="custom-sidebar">';
