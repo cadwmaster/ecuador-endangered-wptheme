@@ -1,17 +1,25 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: EcuadorEndangered\n"
+"POT-Creation-Date: 2017-12-19 01:27+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: EcuadorEndangered\n"
-"Language: es\n"
+"X-Generator: Poedit 2.0.4\n"
 
-#: functions.php:27
+#: footer.php:26
+msgid "footer copywrite"
+msgstr ""
+
+#: functions.php:32
 msgid "Custom"
 msgstr ""
 
-#: functions.php:29
+#: functions.php:34
 msgid "Custom Sidebar"
 msgstr ""
 
@@ -47,6 +55,10 @@ msgstr ""
 msgid "widget newsletter subtitle"
 msgstr ""
 
+#: functions/widget-newsletter.php:49
+msgid "widget newsletter button suscribe"
+msgstr ""
+
 #: functions/widget-social-networks.php:18
 msgid "widget social networks description"
 msgstr ""
@@ -75,10 +87,6 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:54
-msgid "Menu"
-msgstr ""
-
 #: index.php:9
 msgid "slogan"
 msgstr ""
@@ -88,6 +96,7 @@ msgid "take action"
 msgstr ""
 
 #: template-parts/content.php:23
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
@@ -139,36 +148,67 @@ msgstr ""
 msgid "take_action_ecuador donate"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:9
+#: template-parts/take_action-explanation.php:10
 msgid "take_action_explanation signature title"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:10
+#: template-parts/take_action-explanation.php:11
 msgid "take_action_explanation signature description"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:13
+#: template-parts/take_action-explanation.php:14
 msgid "take_action_explanation contribution title"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:14
+#: template-parts/take_action-explanation.php:15
 msgid "take_action_explanation contribution description"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:19
+#: template-parts/take_action-explanation.php:20
 msgid "take_action_explanation crowfunding title"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:20
+#: template-parts/take_action-explanation.php:21
 msgid "take_action_explanation crowfunding subtitle"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:26
+#: template-parts/take_action-explanation.php:25
+#: template-parts/take_action-sign_petition.php:24
+msgid "take_action_sign_petition everyone supporters number"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:29
+#: template-parts/take_action-sign_petition.php:28
+msgid "take_action_sign_petition everyone supporters description"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:33
+#: template-parts/take_action-sign_petition.php:32
+msgid "take_action_sign_petition everyone supporters sign"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:40
 msgid "take_action_explanation volunteers title"
 msgstr ""
 
-#: template-parts/take_action-explanation.php:27
+#: template-parts/take_action-explanation.php:41
 msgid "take_action_explanation volunteers subtitle"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:46
+msgid "take_action_explanation volunteers input first_name placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:49
+msgid "take_action_explanation volunteers input last_name placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:52
+msgid "take_action_explanation volunteers input email placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:56
+msgid "take_action_explanation volunteers button join"
 msgstr ""
 
 #: template-parts/take_action-header.php:9
@@ -206,16 +246,3 @@ msgstr ""
 #: template-parts/take_action-sign_petition.php:20
 msgid "take_action_sign_petition everyone description"
 msgstr ""
-
-#: template-parts/take_action-sign_petition.php:24
-msgid "take_action_sign_petition everyone supporters number"
-msgstr ""
-
-#: template-parts/take_action-sign_petition.php:28
-msgid "take_action_sign_petition everyone supporters description"
-msgstr ""
-
-#: template-parts/take_action-sign_petition.php:32
-msgid "take_action_sign_petition everyone supporters sign"
-msgstr ""
-
