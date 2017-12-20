@@ -244,17 +244,6 @@ section#news .content-wrapper {
     min-height: 400px;
 }
 
-section#news .content-wrapper a.more-link {
-    color: var(--font-color-second);
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 0 0 0;
-}
-
-section#news .content-wrapper a.more-link:hover {
-    text-decoration: underline;
-}
-
 .news-slider .sy-slides-wrap {
     height: 500px;
 }

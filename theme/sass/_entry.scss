@@ -1,4 +1,18 @@
 .content-wrapper {
-	
+
+	.entry-link {
+		margin-top: 20px;
+	}
+
+	a.more-link {
+		color: var(--font-color-second);
+		text-decoration: none;
+		font-weight: bold;
+		box-shadow: 0 0 0 0;
+	}
+
+	a.more-link:hover {
+		text-decoration: underline;
+	}
 }
 

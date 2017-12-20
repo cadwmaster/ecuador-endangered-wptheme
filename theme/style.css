@@ -207,15 +207,6 @@ section#news .content-wrapper {
   opacity: 0.8;
   min-height: 400px; }
 
-section#news .content-wrapper a.more-link {
-  color: var(--font-color-second);
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 0 0 0; }
-
-section#news .content-wrapper a.more-link:hover {
-  text-decoration: underline; }
-
 .news-slider .sy-slides-wrap {
   height: 500px; }
 
@@ -824,3 +815,15 @@ section#custom-sidebar {
 
 .pagination:after {
   background-color: white; }
+
+.content-wrapper .entry-link {
+  margin-top: 20px; }
+
+.content-wrapper a.more-link {
+  color: var(--font-color-second);
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 0 0; }
+
+.content-wrapper a.more-link:hover {
+  text-decoration: underline; }

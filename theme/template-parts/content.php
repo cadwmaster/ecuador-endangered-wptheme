@@ -20,13 +20,13 @@
 					echo get_the_content('');
 				}
 			?>
-			<?php if (get_field('link_to_source')) : ?>
-				<div class="entry-link">
-					<a href="<?php echo get_field('link_to_source');?>"><?php _e('learn_more report link', 'twentysixteen'); ?></a>
-				</div>
+			<div class="entry-link">
+			<?php if (get_field('link_to_source')) :?>
+				<a href="<?php echo get_field('link_to_source');?>"><?php _e('learn_more report link', 'twentysixteen'); ?></a>
 			<?php else : ?>
-				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'sixteen' ) ); ?>
+				<a href="<?php the_permalink(); ?>"><?php _e( 'Continue reading', 'sixteen' ); ?></a>
 			<?php endif; ?>
+			</div>
 		</div><!-- .entry-content -->
 		
 	</div>
