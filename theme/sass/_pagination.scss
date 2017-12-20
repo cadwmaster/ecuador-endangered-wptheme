@@ -1,0 +1,77 @@
+/* Pagination
+-----------------------------------------------*/
+.pagination {
+  margin: 20px auto;
+  max-width: 950px;
+  padding-top: 0px;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  border-color: $background-color-main;
+  ul {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0px;
+    & > li {
+      display: inline;
+      & > a {
+        color: desaturate($link-color, 35%);
+        transition: all 0.4s ease;
+      }
+      & > a:hover {
+        color: $menu-link-color;
+        background: saturate($default-background, 55%);
+      }
+      & > a, span {
+        padding: 4px 12px;
+        line-height: 20px;
+        text-decoration: none;
+        background-color: saturate($default-background, 25%);
+        /*  border: 1px solid desaturate($default-background, 55%); */
+        border-left-width: 0;
+        display: inline-block;
+        color: desaturate($link-color, 40%);
+      }
+      .page-numbers {
+        background-color: $background-color-main;
+        color: white;
+        min-width: 50px;
+        margin: 0;
+        padding-top: 15px;
+        min-height: 35px;
+      }
+      .page-numbers:hover {
+        color: $font-color-second;
+        background-color: white;
+      }
+      .page-numbers.prev,.page-numbers.next {
+        padding-top: 0;
+      }
+    }
+    & > li:first-child {
+      position: absolute;
+      left: 0px;
+      & > a, span {
+        border-left-width: 1px;
+        background-color: white;
+        color: $font-color-second
+      }
+    }
+    & > li:last-child > a, span {
+      border-right-width: 1px;
+    }
+  }
+  .current {
+    background: saturate($default-background, 75%);
+  }
+}
+
+.pagination:before {
+  background-color: $background-color-main;
+}
+
+.pagination:after {
+  background-color: white;
+}

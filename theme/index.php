@@ -35,7 +35,9 @@ get_header(); ?>
 
 </div><!-- .content-area -->
 
-<?php 
+<?php
+echo '<div class="wrapper-button"><a href="/category/news/"><div class="button_action">' . __('Load more', 'twentysixteen') . '</div></a></div>'. PHP_EOL;
+
 get_template_part( 'template-parts/general-pictures_bar');
 get_template_part( 'template-parts/general-take_action'); 
 
