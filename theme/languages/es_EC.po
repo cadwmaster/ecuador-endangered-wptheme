@@ -1,11 +1,19 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: EcuadorEndangered\n"
+"POT-Creation-Date: 2017-12-20 20:31+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: EcuadorEndangered\n"
-"Language: es\n"
+"X-Generator: Poedit 2.0.5\n"
+
+#: footer.php:26
+msgid "footer copywrite"
+msgstr ""
 
 #: functions.php:39
 msgid "Custom"
@@ -47,6 +55,14 @@ msgstr ""
 msgid "widget newsletter subtitle"
 msgstr ""
 
+#: functions/widget-newsletter.php:46
+msgid "widget newsletter email placeholder"
+msgstr ""
+
+#: functions/widget-newsletter.php:49
+msgid "widget newsletter button suscribe"
+msgstr ""
+
 #: functions/widget-social-networks.php:18
 msgid "widget social networks description"
 msgstr ""
@@ -75,6 +91,13 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
+#: inc/template-tags.php:19
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
 #: index.php:8
 msgid "slogan"
 msgstr ""
@@ -83,16 +106,43 @@ msgstr ""
 msgid "take action"
 msgstr ""
 
-#: template-parts/content.php:19
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: index.php:39 template-learn-more.php:52
+msgid "Load more"
 msgstr ""
 
-#: template-parts/content-single.php:25 template-parts/content.php:24
+#: template-learn-more.php:34 template-parts/content.php:25
+msgid "learn_more report link"
+msgstr ""
+
+#: template-parts/content-single.php:13
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content-single.php:25
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/content.php:28
-msgid "Page"
+#: template-parts/content-single.php:34 template-parts/content-single.php:37
+msgid ", "
+msgstr ""
+
+#: template-parts/content-single.php:42
+#, php-format
+msgid "This entry was tagged %2$s."
+msgstr ""
+
+#: template-parts/content-single.php:50
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr ""
+
+#: template-parts/content-single.php:52
+#, php-format
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#: template-parts/content.php:27
+msgid "Continue reading"
 msgstr ""
 
 #: template-parts/general-take_action.php:10
@@ -159,12 +209,43 @@ msgstr ""
 msgid "take_action_explanation crowfunding subtitle"
 msgstr ""
 
+#: template-parts/take_action-explanation.php:25
+#: template-parts/take_action-sign_petition.php:24
+msgid "take_action_sign_petition everyone supporters number"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:29
+#: template-parts/take_action-sign_petition.php:28
+msgid "take_action_sign_petition everyone supporters description"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:33
+#: template-parts/take_action-sign_petition.php:32
+msgid "take_action_sign_petition everyone supporters sign"
+msgstr ""
+
 #: template-parts/take_action-explanation.php:40
 msgid "take_action_explanation volunteers title"
 msgstr ""
 
 #: template-parts/take_action-explanation.php:41
 msgid "take_action_explanation volunteers subtitle"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:46
+msgid "take_action_explanation volunteers input first_name placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:49
+msgid "take_action_explanation volunteers input last_name placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:52
+msgid "take_action_explanation volunteers input email placeholder"
+msgstr ""
+
+#: template-parts/take_action-explanation.php:56
+msgid "take_action_explanation volunteers button join"
 msgstr ""
 
 #: template-parts/take_action-header.php:9
@@ -202,75 +283,3 @@ msgstr ""
 #: template-parts/take_action-sign_petition.php:20
 msgid "take_action_sign_petition everyone description"
 msgstr ""
-
-#: template-parts/take_action-explanation.php:25
-#: template-parts/take_action-sign_petition.php:24
-msgid "take_action_sign_petition everyone supporters number"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:29
-#: template-parts/take_action-sign_petition.php:28
-msgid "take_action_sign_petition everyone supporters description"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:33
-#: template-parts/take_action-sign_petition.php:32
-msgid "take_action_sign_petition everyone supporters sign"
-msgstr ""
-
-#: footer.php:26
-msgid "footer copywrite"
-msgstr ""
-
-#: functions/widget-newsletter.php:49
-msgid "widget newsletter button suscribe"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:46
-msgid "take_action_explanation volunteers input first_name placeholder"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:49
-msgid "take_action_explanation volunteers input last_name placeholder"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:52
-msgid "take_action_explanation volunteers input email placeholder"
-msgstr ""
-
-#: template-parts/take_action-explanation.php:56
-msgid "take_action_explanation volunteers button join"
-msgstr ""
-
-#: functions/widget-newsletter.php:46
-msgid "widget newsletter email placeholder"
-msgstr ""
-
-#: inc/template-tags.php:19
-msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
-msgstr ""
-
-#: template-learn-more.php:29
-msgid "learn_more report link"
-msgstr ""
-
-#: template-parts/content-single.php:13
-msgid "Edit"
-msgstr ""
-
-#: template-parts/content-single.php:34 template-parts/content-single.php:37
-msgid ", "
-msgstr ""
-
-#: template-parts/content-single.php:42
-msgid "This entry was tagged %2$s."
-msgstr ""
-
-#: template-parts/content-single.php:50
-msgid "This entry was posted in %1$s and tagged %2$s."
-msgstr ""
-
-#: template-parts/content-single.php:52
-msgid "This entry was posted in %1$s."
-msgstr ""
-

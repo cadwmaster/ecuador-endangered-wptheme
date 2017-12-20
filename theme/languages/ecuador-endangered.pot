@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-20 10:27+0100\n"
+"POT-Creation-Date: 2017-12-20 20:31+0100\n"
 "PO-Revision-Date: 2017-12-11 21:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -109,7 +109,11 @@ msgstr ""
 msgid "take action"
 msgstr ""
 
-#: template-learn-more.php:29
+#: index.php:39 template-learn-more.php:52
+msgid "Load more"
+msgstr ""
+
+#: template-learn-more.php:34 template-parts/content.php:25
 msgid "learn_more report link"
 msgstr ""
 
@@ -117,7 +121,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: template-parts/content-single.php:25 template-parts/content.php:24
+#: template-parts/content-single.php:25
 msgid "Pages:"
 msgstr ""
 
@@ -140,13 +144,8 @@ msgstr ""
 msgid "This entry was posted in %1$s."
 msgstr ""
 
-#: template-parts/content.php:19
-#, php-format
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
-
-#: template-parts/content.php:28
-msgid "Page"
+#: template-parts/content.php:27
+msgid "Continue reading"
 msgstr ""
 
 #: template-parts/general-take_action.php:10

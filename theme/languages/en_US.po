@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EcuadorEndangered\n"
-"POT-Creation-Date: 2017-12-20 10:27+0100\n"
+"POT-Creation-Date: 2017-12-20 20:31+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -56,10 +56,8 @@ msgid "widget newsletter subtitle"
 msgstr "Receive all our updates by email"
 
 #: functions/widget-newsletter.php:46
-#, fuzzy
-#| msgid "widget newsletter title"
 msgid "widget newsletter email placeholder"
-msgstr "Newsletter"
+msgstr ""
 
 #: functions/widget-newsletter.php:49
 msgid "widget newsletter button suscribe"
@@ -112,7 +110,11 @@ msgstr ""
 msgid "take action"
 msgstr "Take Action"
 
-#: template-learn-more.php:29
+#: index.php:39 template-learn-more.php:52
+msgid "Load more"
+msgstr ""
+
+#: template-learn-more.php:34 template-parts/content.php:25
 msgid "learn_more report link"
 msgstr ""
 
@@ -120,7 +122,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: template-parts/content-single.php:25 template-parts/content.php:24
+#: template-parts/content-single.php:25
 msgid "Pages:"
 msgstr "Pages:"
 
@@ -143,14 +145,9 @@ msgstr ""
 msgid "This entry was posted in %1$s."
 msgstr ""
 
-#: template-parts/content.php:19
-#, php-format
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: template-parts/content.php:27
+msgid "Continue reading"
 msgstr ""
-
-#: template-parts/content.php:28
-msgid "Page"
-msgstr "Page"
 
 #: template-parts/general-take_action.php:10
 msgid "take_action_international title"
@@ -330,3 +327,6 @@ msgstr ""
 "Urge the government of Ecuador to do the right thing. Industrial mining "
 "should be forbidden in all fragile & vital ecosystems, including Protecting "
 "Forests, Watersheds and Indigenous Territories."
+
+#~ msgid "Page"
+#~ msgstr "Page"
