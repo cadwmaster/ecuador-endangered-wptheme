@@ -259,7 +259,8 @@ section#news .content-wrapper {
 .pictures-bar {
   margin: 0 auto;
   display: flex;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 .pictures-bar .image {
   text-align: center;
@@ -827,3 +828,10 @@ section#custom-sidebar {
 
 .content-wrapper a.more-link:hover {
   text-decoration: underline; }
+
+#primary.content-area {
+  float: none;
+  max-width: 900px;
+  margin: 50px auto; }
+  #primary.content-area .page-header {
+    border-top: 0; }
