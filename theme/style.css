@@ -627,8 +627,7 @@ section#custom-sidebar {
   max-width: 380px;
   min-height: 380px;
   max-height: 380px;
-  overflow: hidden;
-  background-color: #24495f; }
+  overflow: hidden; }
 
 .report .content {
   margin-left: 60px;

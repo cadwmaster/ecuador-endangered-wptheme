@@ -1,13 +1,8 @@
 <?php 
+get_header(); 
+get_template_part( 'template-parts/general-top_banner');
+?>
 
-get_header(); ?>
-
-<div id="main-banner">
-	<div class="content">
-		<div class="logo"></div>
-		<div class="slogan"><?php _e('slogan', 'twentysixteen'); ?></div>
-	</div>
-</div>
 <div id="take-action">
 	<div class="button_action big"><?php _e('take action', 'ecuador-endangered'); ?></div> 
 </div>

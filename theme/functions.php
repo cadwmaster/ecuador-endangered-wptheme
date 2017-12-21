@@ -36,9 +36,9 @@ function my_child_theme_locale() {
 function my_custom_sidebar() {
     register_sidebar(
         array (
-            'name' => __( 'Custom', 'your-theme-domain' ),
+            'name' => __( 'Custom', 'twentysixteen' ),
             'id' => 'custom-side-bar',
-            'description' => __( 'Custom Sidebar', 'your-theme-domain' ),
+            'description' => __( 'Custom Sidebar', 'twentysixteen' ),
             'before_widget' => '<div class="widget-content">',
             'after_widget' => "</div>",
             'before_title' => '<h3 class="widget-title">',
