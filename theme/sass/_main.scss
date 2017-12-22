@@ -139,7 +139,7 @@ body:not(.custom-background-image):after {
 
  #main-banner .content {
     position: relative;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     top: 200px;
     color: white;
@@ -158,6 +158,7 @@ body:not(.custom-background-image):after {
  #main-banner .content .slogan {
     margin-top: 50px;
     font-size: var(--font-size-xl);
+    font-weight: bold;
  }
 
  #take-action {
