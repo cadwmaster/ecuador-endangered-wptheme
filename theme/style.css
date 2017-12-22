@@ -22,7 +22,8 @@ Text Domain: twenty-sixteen-child
 
 body {
   background-color: var(--background-color-main);
-  color: black; }
+  color: black;
+  font-family: 'Montserrat', sans-serif; }
 
 body:not(.custom-background-image):before,
 body:not(.custom-background-image):after {
@@ -110,7 +111,7 @@ body:not(.custom-background-image):after {
   background-image: url("./images/slogan-background.jpg");
   height: 700px;
   background-position-x: -100px;
-  background-position-y: -100px;
+  background-position-y: -500px;
   position: relative; }
 
 #main-banner .content {
@@ -834,3 +835,32 @@ section#custom-sidebar {
   margin: 50px auto; }
   #primary.content-area .page-header {
     border-top: 0; }
+
+section#category {
+  max-width: 1000px;
+  margin: 0 auto; }
+  section#category article {
+    display: flex; }
+    section#category article .entry-image {
+      flex: 4;
+      max-height: 350px;
+      overflow: hidden; }
+    section#category article .content-wrapper {
+      flex: 6;
+      margin-left: 20px;
+      margin-right: 20px; }
+      section#category article .content-wrapper .entry-header {
+        margin-top: 20px; }
+      section#category article .content-wrapper .entry-title {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px; }
+      section#category article .content-wrapper .entry-content {
+        float: none;
+        margin: 40px 20px;
+        width: auto; }
+  section#category article:first-child .entry-image {
+    flex: 6; }
+  section#category article:first-child .content-wrapper {
+    flex: 4; }

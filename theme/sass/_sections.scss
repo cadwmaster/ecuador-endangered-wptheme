@@ -7,3 +7,50 @@
         border-top: 0;
     }
 }
+
+section#category {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    article {
+        display: flex;
+
+        .entry-image {
+            flex: 4;
+            max-height: 350px;
+            overflow: hidden;
+        }
+
+        .content-wrapper {
+            flex: 6;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            .entry-header {
+                margin-top: 20px;
+            }
+
+            .entry-title {
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+
+            .entry-content {
+                float: none;
+                margin: 40px 20px;
+                width: auto;
+            }
+        }
+    }
+
+    article:first-child {
+        .entry-image {
+            flex: 6;
+        }
+        .content-wrapper {
+            flex: 4;
+        }
+    }
+}

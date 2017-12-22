@@ -27,6 +27,7 @@ Text Domain: twenty-sixteen-child
 body {
     background-color: var(--background-color-main);
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body:not(.custom-background-image):before,
@@ -132,7 +133,7 @@ body:not(.custom-background-image):after {
     background-image:  url("./images/slogan-background.jpg");
     height: 700px;
     background-position-x: -100px;
-    background-position-y: -100px;
+    background-position-y: -500px;
     position: relative;
  }
 

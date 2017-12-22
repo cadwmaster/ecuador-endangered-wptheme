@@ -4,7 +4,9 @@ get_template_part( 'template-parts/general-top_banner');
 ?>
 
 <div id="take-action">
-	<div class="button_action big"><?php _e('take action', 'ecuador-endangered'); ?></div> 
+	<a href="/take-action">
+		<div class="button_action big"><?php _e('take action', 'ecuador-endangered'); ?></div>
+	</a>
 </div>
 <div id="primary" class="content-area home">
 	<main id="main" class="site-main" role="main">
