@@ -5,9 +5,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="entry-image">
-		<?php twentysixteen_post_thumbnail(); ?>
-	</div>
+	<div class="entry-image" style="background-image: url(<?php echo the_post_thumbnail_url( 'full' ); ?>)"></div>
 	<div class="content-wrapper">
 		<header class="entry-header">
 			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>

@@ -17,7 +17,7 @@
 		<div class="featured-image-single">
 			<?php if (has_post_thumbnail() )
 				the_post_thumbnail();
-				?>
+			?>
 		</div>
 		<?php the_content(); ?>
 		<?php

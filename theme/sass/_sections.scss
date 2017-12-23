@@ -1,6 +1,6 @@
 #primary.content-area {
     float: none;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 50px auto;
 
     .page-header {
@@ -13,12 +13,20 @@ section#category {
     margin: 0 auto;
 
     article {
+        margin-top: 50px;
         display: flex;
 
         .entry-image {
             flex: 4;
-            max-height: 350px;
+            height: 380px;
+            min-width: 380px;
+            max-width: 380px;
             overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-image: url("./images/image-placeholder.jpg");
         }
 
         .content-wrapper {
@@ -42,15 +50,6 @@ section#category {
                 margin: 40px 20px;
                 width: auto;
             }
-        }
-    }
-
-    article:first-child {
-        .entry-image {
-            flex: 6;
-        }
-        .content-wrapper {
-            flex: 4;
         }
     }
 }

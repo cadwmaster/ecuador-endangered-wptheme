@@ -42,9 +42,11 @@
 				</div><!-- .site-branding -->
 
 				<nav id="language-navigation" class="language-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Language Menu', 'twentysixteen' ); ?>">
+					<div class="menu-language-container">
 					<ul>
 						<?php pll_the_languages(array('hide_if_empty'=>0)); ?>
 					</ul>
+					</div>
 				</nav>
 
 				<?php if ( has_nav_menu( 'primary' ) ) : ?>
