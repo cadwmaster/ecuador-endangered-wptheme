@@ -26,6 +26,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-111179240-1');
 	</script>
+	<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png">
 </head>
 
 <body <?php body_class(); ?>>
@@ -41,13 +42,15 @@
                     </a>
 				</div><!-- .site-branding -->
 
-				<nav id="language-navigation" class="language-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Language Menu', 'twentysixteen' ); ?>">
-					<div class="menu-language-container">
-					<ul>
-						<?php pll_the_languages(array('hide_if_empty'=>0)); ?>
-					</ul>
-					</div>
-				</nav>
+				<?php if ( function_exists('pll_the_languages')) : ?>
+					<nav id="language-navigation" class="language-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Language Menu', 'twentysixteen' ); ?>">
+						<div class="menu-language-container">
+						<ul>
+							<?php pll_the_languages(array('hide_if_empty'=>0)); ?>
+						</ul>
+						</div>
+					</nav>
+				<?php endif; ?>
 
 				<?php if ( has_nav_menu( 'primary' ) ) : ?>
 					<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">

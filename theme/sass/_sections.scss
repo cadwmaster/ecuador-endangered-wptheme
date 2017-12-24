@@ -1,6 +1,6 @@
 #primary.content-area {
     float: none;
-    max-width: 1000px;
+    max-width: $content-width;
     margin: 50px auto;
 
     .page-header {
@@ -9,7 +9,7 @@
 }
 
 section#category {
-    max-width: 1000px;
+    max-width: $content-width;
     margin: 0 auto;
 
     article {
