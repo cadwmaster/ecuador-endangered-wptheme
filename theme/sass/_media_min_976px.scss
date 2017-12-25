@@ -1,0 +1,18 @@
+@media screen and (min-width: 61.5625em) {
+    .site-header {
+        height: 70px;
+        padding: 0 20px;
+    }
+    .site-branding { 
+        flex: 1 auto; 
+        order: 1;
+    }
+    .language-navigation {
+        flex: 1 auto;
+        order: 3;
+    }
+    .main-navigation {
+        flex: 1 auto;
+        order: 2;
+    }
+}

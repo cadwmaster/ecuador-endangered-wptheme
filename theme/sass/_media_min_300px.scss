@@ -1,0 +1,18 @@
+@media all and (min-width: 300px) {
+    .site-header {
+        height: 120px;
+        padding: 0 20px;
+    }
+    .site-branding { 
+        flex: 1 auto; 
+        order: 1;
+    }
+    .language-navigation {
+        flex: 3 auto;
+        order: 2;
+    }
+    .main-navigation {
+        flex: 1 100%;
+        order: 3;
+    }
+}
