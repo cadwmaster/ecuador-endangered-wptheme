@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EcuadorEndangered\n"
-"POT-Creation-Date: 2018-01-07 12:37+0100\n"
+"POT-Creation-Date: 2018-01-07 23:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -112,12 +112,9 @@ msgid "Skip to content"
 msgstr "Skip to content"
 
 #: inc/template-tags.php:19
-#, fuzzy, php-format
-#| msgid ""
-#| "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
-#| "%2$s</span>"
+#, php-format
 msgid "<span class=\"posted-on\">Published %1$s</span>"
-msgstr "<span class=\"posted-on\">Published %1$s</span>"
+msgstr ""
 
 #: inc/template-tags.php:27
 #, php-format
@@ -128,16 +125,12 @@ msgstr ""
 msgid "take action"
 msgstr "Take Action"
 
-#: index.php:30
-msgid "Load more"
-msgstr ""
-
 #: search.php:14
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-learn-more.php:37 template-parts/content.php:23
+#: template-learn-more.php:37 template-parts/content.php:19
 msgid "learn_more report link"
 msgstr "Read report"
 
@@ -148,10 +141,6 @@ msgstr "Edit"
 #: template-parts/content-single.php:25
 msgid "Pages:"
 msgstr "Pages:"
-
-#: template-parts/content.php:25
-msgid "Continue reading"
-msgstr ""
 
 #: template-parts/general-take_action.php:11
 msgid "take_action_international title"
@@ -165,31 +154,31 @@ msgstr "People of the world"
 msgid "take_action_international description"
 msgstr "Tell the government of Ecuador to prohibit mining in vital ecosystems."
 
-#: template-parts/general-take_action.php:15
+#: template-parts/general-take_action.php:16
 msgid "take_action_international sign"
 msgstr "Sign the petition"
 
-#: template-parts/general-take_action.php:16
+#: template-parts/general-take_action.php:19
 msgid "take_action_international donate"
 msgstr "Donate"
 
-#: template-parts/general-take_action.php:22
+#: template-parts/general-take_action.php:26
 msgid "take_action_ecuador title"
 msgstr "Take action"
 
-#: template-parts/general-take_action.php:23
+#: template-parts/general-take_action.php:27
 msgid "take_action_ecuador subtitle"
 msgstr "Ecuadorians"
 
-#: template-parts/general-take_action.php:24
+#: template-parts/general-take_action.php:28
 msgid "take_action_ecuador description"
 msgstr "Urge your government to prohibit mining in vital ecosystems."
 
-#: template-parts/general-take_action.php:26
+#: template-parts/general-take_action.php:31
 msgid "take_action_ecuador sign"
 msgstr "Sign the petition"
 
-#: template-parts/general-take_action.php:27
+#: template-parts/general-take_action.php:34
 msgid "take_action_ecuador donate"
 msgstr "Donate"
 
@@ -263,19 +252,39 @@ msgid "take_action_explanation crowfunding subtitle"
 msgstr "Help fund the on the ground campaign by contributing what you can."
 
 #: template-parts/take_action-explanation.php:30
-#: template-parts/take_action-sign_petition.php:27
-msgid "take_action_sign_petition everyone supporters number"
-msgstr "Join our 1200+ supporters"
+#, fuzzy
+#| msgid "take_action_explanation crowfunding subtitle"
+msgid "take_action_explanation crowfunding donors number"
+msgstr "Help fund the on the ground campaign by contributing what you can."
 
 #: template-parts/take_action-explanation.php:34
-#: template-parts/take_action-sign_petition.php:31
-msgid "take_action_sign_petition everyone supporters description"
-msgstr "Sign the global petition with the Rainforest Information Centre"
+#, fuzzy
+#| msgid "take_action_explanation contribution description"
+msgid "take_action_explanation crowfunding donors description"
+msgstr ""
+"We are crowdfunding to support Ecuadorian's demand that the government "
+"rescind harmful new mining concessions and prohibit mining in protected "
+"areas, fragile and vital ecosystems including protected forest reserves "
+"(Bosques Protectores), water sources, and indigenous territories.\n"
+"\n"
+"Paul Gilding, ex-CEO of Greenpeace International, is matching the first "
+"$15,000 of donations dollar for dollar. He's a good guy. And good guys don't "
+"let vital ecosystems get "
+"devastated.                                                                    \n"
+"\n"
+"Your money will also help fund a publicity campaign with the coalition of "
+"Ecuadorian civil society groups, demanding an open dialogue on development. "
+"This will focus on 'Extractivism vs Sustainability' and will show how "
+"development models based on conservation, biodiversity, renewable energy and "
+"human potential are better for everyone. Costa Rica banned all open-pit "
+"mining in 2010 and today has much better socioeconomic indicators than "
+"Ecuador."
 
 #: template-parts/take_action-explanation.php:38
-#: template-parts/take_action-sign_petition.php:35
-msgid "take_action_sign_petition everyone supporters sign"
-msgstr "Sign the petition"
+#, fuzzy
+#| msgid "take_action_explanation crowfunding title"
+msgid "take_action_explanation crowfunding donors sign"
+msgstr "Donate"
 
 #: template-parts/take_action-explanation.php:47
 msgid "take_action_explanation volunteers title"
@@ -347,17 +356,14 @@ msgstr ""
 "sources, and indigenous territories. And rescind concesions already granted "
 "in such areas."
 
-#~ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-#~ msgstr "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: template-parts/take_action-sign_petition.php:27
+msgid "take_action_sign_petition everyone supporters number"
+msgstr "Join our 1200+ supporters"
 
-#~ msgid ", "
-#~ msgstr ", "
+#: template-parts/take_action-sign_petition.php:31
+msgid "take_action_sign_petition everyone supporters description"
+msgstr "Sign the global petition with the Rainforest Information Centre"
 
-#~ msgid "This entry was tagged %2$s."
-#~ msgstr "This entry was tagged %2$s."
-
-#~ msgid "This entry was posted in %1$s and tagged %2$s."
-#~ msgstr "This entry was posted in %1$s and tagged %2$s."
-
-#~ msgid "This entry was posted in %1$s."
-#~ msgstr "This entry was posted in %1$s."
+#: template-parts/take_action-sign_petition.php:35
+msgid "take_action_sign_petition everyone supporters sign"
+msgstr "Sign the petition"

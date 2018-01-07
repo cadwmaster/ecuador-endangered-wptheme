@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EcuadorEndangered\n"
-"POT-Creation-Date: 2018-01-07 12:37+0100\n"
+"POT-Creation-Date: 2018-01-07 23:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -125,16 +125,12 @@ msgstr ""
 msgid "take action"
 msgstr "Actúa"
 
-#: index.php:30
-msgid "Load more"
-msgstr ""
-
 #: search.php:14
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-learn-more.php:37 template-parts/content.php:23
+#: template-learn-more.php:37 template-parts/content.php:19
 msgid "learn_more report link"
 msgstr "Lee el reporte"
 
@@ -144,10 +140,6 @@ msgstr ""
 
 #: template-parts/content-single.php:25
 msgid "Pages:"
-msgstr ""
-
-#: template-parts/content.php:25
-msgid "Continue reading"
 msgstr ""
 
 #: template-parts/general-take_action.php:11
@@ -164,31 +156,31 @@ msgstr ""
 "Dile al gobierno de Ecuador que escuche a su gente y prohíba la minería en "
 "ecosistemas vitales."
 
-#: template-parts/general-take_action.php:15
+#: template-parts/general-take_action.php:16
 msgid "take_action_international sign"
 msgstr "Firma la petición"
 
-#: template-parts/general-take_action.php:16
+#: template-parts/general-take_action.php:19
 msgid "take_action_international donate"
 msgstr "Dona"
 
-#: template-parts/general-take_action.php:22
+#: template-parts/general-take_action.php:26
 msgid "take_action_ecuador title"
 msgstr "Actúa"
 
-#: template-parts/general-take_action.php:23
+#: template-parts/general-take_action.php:27
 msgid "take_action_ecuador subtitle"
 msgstr "Ecuatorianos"
 
-#: template-parts/general-take_action.php:24
+#: template-parts/general-take_action.php:28
 msgid "take_action_ecuador description"
 msgstr "Exijamos que nuestro gobierno prohíba la minería en ecosistemas vitales."
 
-#: template-parts/general-take_action.php:26
+#: template-parts/general-take_action.php:31
 msgid "take_action_ecuador sign"
 msgstr "Firma la petición"
 
-#: template-parts/general-take_action.php:27
+#: template-parts/general-take_action.php:34
 msgid "take_action_ecuador donate"
 msgstr "Dona a la causa"
 
@@ -260,21 +252,42 @@ msgstr ""
 "las redes sociales. Contribuye con lo que puedas."
 
 #: template-parts/take_action-explanation.php:30
-#: template-parts/take_action-sign_petition.php:27
-msgid "take_action_sign_petition everyone supporters number"
-msgstr "Únete a nuestros 1200+ partidarios"
+#, fuzzy
+#| msgid "take_action_explanation crowfunding subtitle"
+msgid "take_action_explanation crowfunding donors number"
+msgstr ""
+"Ayuda a financiar la campaña en las comunides y áreas afectadas, y a través de "
+"las redes sociales. Contribuye con lo que puedas."
 
 #: template-parts/take_action-explanation.php:34
-#: template-parts/take_action-sign_petition.php:31
-msgid "take_action_sign_petition everyone supporters description"
+#, fuzzy
+#| msgid "take_action_explanation contribution description"
+msgid "take_action_explanation crowfunding donors description"
 msgstr ""
-"Firma la petición global en el sitio web del Rainforest Information Center "
-"(Centro de Información de Bosques Nublados)."
+"Estamos recolectando fondos para apoyar la campaña ecuatoriana y pedir que el "
+"gobierno anule las nuevas concesiones mineras perjudiciales, y prohíba la "
+"minería en áreas protegidas, ecosistemas frágiles, reservas forestales, "
+"bosques protectores, fuentes de agua y territorios indígenas.\n"
+"\n"
+"Paul Golding, ex director ejecutivo de Greenpeace International, igualará los "
+"primeros $15,000 de donaciones. Él es un buen tipo. Y los buenos tipos no "
+"dejan que los ecosistemas vitales se destruyan.\n"
+"\n"
+"Tu dinero también ayudará a financiar una segunda campaña organizada por la "
+"coalición de grupos de la sociedad civil ecuatoriana, para exigir un diálogo "
+"abierto sobre los modelos de desarrollo en el país: 'Extractivismo o "
+"Sustentabilidad'. El objetivo será demostrar cómo los modelos de desarrollo "
+"basados ​​en la conservación de la biodiversidad, las energías renovables y el "
+"potencial humano son mejores para todos. Costa Rica prohibió toda minería a "
+"cielo abierto en el 2010, y hoy tiene indicadores socioeconómicos mucho "
+"mejores que los de Ecuador. El cambio no solo es posible, pero también "
+"necesario"
 
 #: template-parts/take_action-explanation.php:38
-#: template-parts/take_action-sign_petition.php:35
-msgid "take_action_sign_petition everyone supporters sign"
-msgstr "Firma la petición"
+#, fuzzy
+#| msgid "take_action_explanation crowfunding title"
+msgid "take_action_explanation crowfunding donors sign"
+msgstr "Haz un donativo"
 
 #: template-parts/take_action-explanation.php:47
 msgid "take_action_explanation volunteers title"
@@ -345,3 +358,17 @@ msgstr ""
 "en ecosistemas frágiles, incluyendo reservas naturales, bosques protectores, "
 "fuentes de agua y territorios indígenas'. Y que revoque las concesiones ya "
 "otorgadas en dichas áreas."
+
+#: template-parts/take_action-sign_petition.php:27
+msgid "take_action_sign_petition everyone supporters number"
+msgstr "Únete a nuestros 1200+ partidarios"
+
+#: template-parts/take_action-sign_petition.php:31
+msgid "take_action_sign_petition everyone supporters description"
+msgstr ""
+"Firma la petición global en el sitio web del Rainforest Information Center "
+"(Centro de Información de Bosques Nublados)."
+
+#: template-parts/take_action-sign_petition.php:35
+msgid "take_action_sign_petition everyone supporters sign"
+msgstr "Firma la petición"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-01-07 12:37+0100\n"
+"POT-Creation-Date: 2018-01-07 23:54+0100\n"
 "PO-Revision-Date: 2017-12-11 21:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -130,16 +130,12 @@ msgstr ""
 msgid "take action"
 msgstr ""
 
-#: index.php:30
-msgid "Load more"
-msgstr ""
-
 #: search.php:14
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-learn-more.php:37 template-parts/content.php:23
+#: template-learn-more.php:37 template-parts/content.php:19
 msgid "learn_more report link"
 msgstr ""
 
@@ -149,10 +145,6 @@ msgstr ""
 
 #: template-parts/content-single.php:25
 msgid "Pages:"
-msgstr ""
-
-#: template-parts/content.php:25
-msgid "Continue reading"
 msgstr ""
 
 #: template-parts/general-take_action.php:11
@@ -167,31 +159,31 @@ msgstr ""
 msgid "take_action_international description"
 msgstr ""
 
-#: template-parts/general-take_action.php:15
+#: template-parts/general-take_action.php:16
 msgid "take_action_international sign"
 msgstr ""
 
-#: template-parts/general-take_action.php:16
+#: template-parts/general-take_action.php:19
 msgid "take_action_international donate"
 msgstr ""
 
-#: template-parts/general-take_action.php:22
+#: template-parts/general-take_action.php:26
 msgid "take_action_ecuador title"
 msgstr ""
 
-#: template-parts/general-take_action.php:23
+#: template-parts/general-take_action.php:27
 msgid "take_action_ecuador subtitle"
 msgstr ""
 
-#: template-parts/general-take_action.php:24
+#: template-parts/general-take_action.php:28
 msgid "take_action_ecuador description"
 msgstr ""
 
-#: template-parts/general-take_action.php:26
+#: template-parts/general-take_action.php:31
 msgid "take_action_ecuador sign"
 msgstr ""
 
-#: template-parts/general-take_action.php:27
+#: template-parts/general-take_action.php:34
 msgid "take_action_ecuador donate"
 msgstr ""
 
@@ -224,18 +216,15 @@ msgid "take_action_explanation crowfunding subtitle"
 msgstr ""
 
 #: template-parts/take_action-explanation.php:30
-#: template-parts/take_action-sign_petition.php:27
-msgid "take_action_sign_petition everyone supporters number"
+msgid "take_action_explanation crowfunding donors number"
 msgstr ""
 
 #: template-parts/take_action-explanation.php:34
-#: template-parts/take_action-sign_petition.php:31
-msgid "take_action_sign_petition everyone supporters description"
+msgid "take_action_explanation crowfunding donors description"
 msgstr ""
 
 #: template-parts/take_action-explanation.php:38
-#: template-parts/take_action-sign_petition.php:35
-msgid "take_action_sign_petition everyone supporters sign"
+msgid "take_action_explanation crowfunding donors sign"
 msgstr ""
 
 #: template-parts/take_action-explanation.php:47
@@ -296,4 +285,16 @@ msgstr ""
 
 #: template-parts/take_action-sign_petition.php:23
 msgid "take_action_sign_petition everyone description"
+msgstr ""
+
+#: template-parts/take_action-sign_petition.php:27
+msgid "take_action_sign_petition everyone supporters number"
+msgstr ""
+
+#: template-parts/take_action-sign_petition.php:31
+msgid "take_action_sign_petition everyone supporters description"
+msgstr ""
+
+#: template-parts/take_action-sign_petition.php:35
+msgid "take_action_sign_petition everyone supporters sign"
 msgstr ""
