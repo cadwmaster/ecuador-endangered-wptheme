@@ -27,15 +27,15 @@
 			<div class="container">
 				<div class="wrapper-petition">
 					<div class="supporters">
-						<?php _e('take_action_sign_petition everyone supporters number', 'twentysixteen'); ?>
+						<?php _e('take_action_explanation crowfunding donors number', 'twentysixteen'); ?>
 					</div>
 					<div class="image crowfunding"></div>
 					<div class="description">
-						<?php _e('take_action_sign_petition everyone supporters description', 'twentysixteen'); ?>
+						<?php _e('take_action_explanation crowfunding donors description', 'twentysixteen'); ?>
 					</div>
-					<a href="https://www.fundmyplanet.org/campaign/11/save-ecuadors-forests-from-mining">
+					<a href="https://www.fundmyplanet.org/campaign/11/save-ecuadors-forests-from-mining" target="_blank">
 						<div class="button-sign">
-							<?php _e('take_action_sign_petition everyone supporters sign', 'twentysixteen'); ?>
+							<?php _e('take_action_explanation crowfunding donors sign', 'twentysixteen'); ?>
 						</div>
 					</a>
 				</div>

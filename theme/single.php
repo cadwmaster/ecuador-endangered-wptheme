@@ -17,5 +17,15 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<?php 
+get_template_part( 'template-parts/general-pictures_bar');
+get_template_part( 'template-parts/general-take_action'); 
 
-<?php get_footer(); ?>
+if ( is_active_sidebar( 'custom-side-bar' ) ) :
+    echo '<section id="custom-sidebar">';
+    dynamic_sidebar( 'custom-side-bar' );
+    echo '</section>';
+endif;
+
+get_footer(); 
+?>

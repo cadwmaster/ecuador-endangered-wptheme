@@ -220,7 +220,7 @@ section#news .entry-content {
 
 section#news .content-wrapper {
   position: relative;
-  width: 80%;
+  width: 55%;
   margin-left: 50%;
   top: 30px;
   background-color: white;
@@ -320,7 +320,8 @@ section#news .content-wrapper {
 .content-take_action .title {
   margin-top: 100px;
   font-size: var(--font-size-xxl);
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 65px; }
 
 .content-take_action .subtitle {
   font-size: var(--font-size-m);
@@ -340,8 +341,9 @@ section#news .content-wrapper {
   width: 100%;
   text-align: center; }
 
-.content-take_action .links > div {
-  margin-top: 30px; }
+.content-take_action .links div {
+  margin-top: 30px;
+  line-height: 40px; }
 
 /* TEMPLATE CONTENT HEADER */
 .content-header {
@@ -356,6 +358,7 @@ section#news .content-wrapper {
 .content-header .title {
   margin-top: 10px;
   font-size: var(--font-size-xxl);
+  line-height: 65px;
   color: var(--font-color-second);
   margin-bottom: 10px;
   font-weight: bolder; }
@@ -398,6 +401,7 @@ section#news .content-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: var(--font-size-xxl);
+  line-height: 65px;
   color: var(--font-color-second);
   font-weight: bolder; }
 
@@ -488,7 +492,8 @@ section#news .content-wrapper {
 .explanation .title {
   margin-top: 135px;
   font-size: var(--font-size-xxl);
-  color: var(--font-color-first); }
+  color: var(--font-color-first);
+  line-height: 65px; }
 
 .explanation .description {
   margin-top: 65px;
@@ -497,7 +502,8 @@ section#news .content-wrapper {
   min-height: 300px;
   width: 90%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 65px; }
 
 .explanation .description p {
   margin-top: 10px; }
@@ -528,6 +534,7 @@ section#news .content-wrapper {
 .extra .title {
   margin-top: 100px;
   font-size: var(--font-size-xxl);
+  line-height: 65px;
   color: var(--font-color-second); }
 
 .extra .subtitle {
@@ -554,6 +561,7 @@ section#news .content-wrapper {
 .content-area h1, h2 {
   color: var(--font-color-fourd);
   font-size: var(--font-size-xxl);
+  line-height: 65px;
   text-align: center;
   margin: 50px auto; }
 
@@ -581,7 +589,8 @@ section#news .content-wrapper {
   font-weight: bold; }
 
 .content-area a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #24495f !important; }
 
 footer.entry-meta {
   margin-top: 40px; }

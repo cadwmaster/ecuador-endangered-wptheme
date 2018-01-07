@@ -12,20 +12,13 @@
 		</header><!-- .entry-header -->
 		<div class="entry-content">
 			<?php 
-				if (strlen(get_the_content()) >= 500) { 
-					echo substr(get_the_content(''), 0, 500)."...";
-				} else {
-					echo get_the_content('');
-				}
+				echo the_content_formatted();
 			?>
 			<div class="entry-link">
 			<?php if (get_field('link_to_source')) :?>
 				<a href="<?php echo get_field('link_to_source');?>"><?php _e('learn_more report link', 'twentysixteen'); ?></a>
-			<?php else : ?>
-				<a href="<?php the_permalink(); ?>"><?php _e( 'Continue reading', 'sixteen' ); ?></a>
 			<?php endif; ?>
 			</div>
 		</div><!-- .entry-content -->
-		
 	</div>
 </article><!-- #post-## -->

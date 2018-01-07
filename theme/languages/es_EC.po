@@ -1,11 +1,39 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: EcuadorEndangered\n"
+"POT-Creation-Date: 2018-01-07 12:37+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: EcuadorEndangered\n"
-"Language: es\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:49 search.php:33
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:50 search.php:34
+msgid "Next page"
+msgstr ""
+
+#: archive.php:51 search.php:35
+msgid "Page"
+msgstr ""
+
+#: footer.php:26
+msgid "footer copywrite"
+msgstr "© 2017. Todos los derechos reservados."
 
 #: functions.php:39
 msgid "Custom"
@@ -47,6 +75,14 @@ msgstr "Actualizaciones"
 msgid "widget newsletter subtitle"
 msgstr "Recibir actualizaciones por correo electrónico"
 
+#: functions/widget-newsletter.php:46
+msgid "widget newsletter email placeholder"
+msgstr "Tu correo electrónico"
+
+#: functions/widget-newsletter.php:49
+msgid "widget newsletter button suscribe"
+msgstr "Suscríbete"
+
 #: functions/widget-social-networks.php:18
 msgid "widget social networks description"
 msgstr "Sigue la campaña en las redes sociales"
@@ -71,111 +107,198 @@ msgstr ""
 msgid "Facebook User ID:"
 msgstr ""
 
-#: header.php:34
+#: header.php:35
 msgid "Skip to content"
 msgstr ""
 
-#: index.php:8
-msgid "slogan"
-msgstr "Minería tóxica en ecosistemas frágiles, fuentes de agua y territorios indígenas. ¿Qué podría salir mal (otra vez)?\n"
-"Esta es una lucha por el futuro de Ecuador.\n"
-"*#salavemoslosandes*"
+#: inc/template-tags.php:19
+#, php-format
+msgid "<span class=\"posted-on\">Published %1$s</span>"
+msgstr ""
 
-#: index.php:12
+#: inc/template-tags.php:27
+#, php-format
+msgid "<span class=\"byline\"> by %1$s</span>"
+msgstr ""
+
+#: index.php:8
 msgid "take action"
 msgstr "Actúa"
 
-#: template-parts/content.php:19
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: index.php:30
+msgid "Load more"
 msgstr ""
 
-#: template-parts/content-single.php:25 template-parts/content.php:24
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-learn-more.php:37 template-parts/content.php:23
+msgid "learn_more report link"
+msgstr "Lee el reporte"
+
+#: template-parts/content-single.php:21
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content-single.php:25
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/content.php:28
-msgid "Page"
+#: template-parts/content.php:25
+msgid "Continue reading"
 msgstr ""
 
-#: template-parts/general-take_action.php:10
+#: template-parts/general-take_action.php:11
 msgid "take_action_international title"
 msgstr "Actúa"
 
-#: template-parts/general-take_action.php:11
+#: template-parts/general-take_action.php:12
 msgid "take_action_international subtitle"
 msgstr "Ciudadanos del mundo"
 
-#: template-parts/general-take_action.php:12
+#: template-parts/general-take_action.php:13
 msgid "take_action_international description"
-msgstr "Dile al gobierno de Ecuador que escuche a su gente y prohíba la minería en ecosistemas vitales."
+msgstr ""
+"Dile al gobierno de Ecuador que escuche a su gente y prohíba la minería en "
+"ecosistemas vitales."
 
-#: template-parts/general-take_action.php:14
+#: template-parts/general-take_action.php:15
 msgid "take_action_international sign"
 msgstr "Firma la petición"
 
-#: template-parts/general-take_action.php:15
+#: template-parts/general-take_action.php:16
 msgid "take_action_international donate"
 msgstr "Dona"
 
-#: template-parts/general-take_action.php:19
+#: template-parts/general-take_action.php:22
 msgid "take_action_ecuador title"
 msgstr "Actúa"
 
-#: template-parts/general-take_action.php:20
+#: template-parts/general-take_action.php:23
 msgid "take_action_ecuador subtitle"
 msgstr "Ecuatorianos"
 
-#: template-parts/general-take_action.php:21
+#: template-parts/general-take_action.php:24
 msgid "take_action_ecuador description"
 msgstr "Exijamos que nuestro gobierno prohíba la minería en ecosistemas vitales."
 
-#: template-parts/general-take_action.php:23
+#: template-parts/general-take_action.php:26
 msgid "take_action_ecuador sign"
 msgstr "Firma la petición"
 
-#: template-parts/general-take_action.php:24
+#: template-parts/general-take_action.php:27
 msgid "take_action_ecuador donate"
 msgstr "Dona a la causa"
 
-#: template-parts/take_action-explanation.php:10
+#: template-parts/general-top_banner.php:4
+msgid "slogan"
+msgstr ""
+"Minería tóxica en ecosistemas frágiles, fuentes de agua y territorios "
+"indígenas. ¿Qué podría salir mal (otra vez)?\n"
+"Esta es una lucha por el futuro de Ecuador.\n"
+"*#salavemoslosandes*"
+
+#: template-parts/take_action-explanation.php:11
 msgid "take_action_explanation signature title"
 msgstr "Tu firma"
 
-#: template-parts/take_action-explanation.php:11
+#: template-parts/take_action-explanation.php:12
 msgid "take_action_explanation signature description"
-msgstr "Ecuador se encuentra entre las naciones más biodiversas del mundo. Pero el año pasado, el gobierno ecuatoriano otorgó más de 1,7 millones de hectáreas (4.25 millones de acres) de bosques protegidos, fuentes de agua y territorios indígenas, en concesiones para la exploración minera a transnacionales extranjeras. Dichas concesiones se hicieron a puerta cerrada, sin el conocimimento ni la aprovación del pueblo ecuatoriano. \n"
+msgstr ""
+"Ecuador se encuentra entre las naciones más biodiversas del mundo. Pero el año "
+"pasado, el gobierno ecuatoriano otorgó más de 1,7 millones de hectáreas (4.25 "
+"millones de acres) de bosques protegidos, fuentes de agua y territorios "
+"indígenas, en concesiones para la exploración minera a transnacionales "
+"extranjeras. Dichas concesiones se hicieron a puerta cerrada, sin el "
+"conocimimento ni la aprovación del pueblo ecuatoriano. \n"
 "\n"
-"Esto es una violación directa de la ley ecuatoriana y a los tratados internacionales, que tendrá un efecto devastador sobre ecosistemas frágiles y los llamados \"\"hotspots\"\" o puntos calientes de biodiversidad de gran importancia global.\n"
+"Esto es una violación directa de la ley ecuatoriana y a los tratados "
+"internacionales, que tendrá un efecto devastador sobre ecosistemas frágiles y "
+"los llamados \"\"hotspots\"\" o puntos calientes de biodiversidad de gran "
+"importancia global.\n"
 "\n"
-"Tu firma nos ayudará a defender estas áreas, que además de albergar tan increíble diversidad, contribuyen enormemente al equilibrio de la biosfera de la que todos dependemos."
+"Tu firma nos ayudará a defender estas áreas, que además de albergar tan "
+"increíble diversidad, contribuyen enormemente al equilibrio de la biosfera de "
+"la que todos dependemos."
 
-#: template-parts/take_action-explanation.php:14
+#: template-parts/take_action-explanation.php:17
 msgid "take_action_explanation contribution title"
 msgstr "Tu donación"
 
-#: template-parts/take_action-explanation.php:15
+#: template-parts/take_action-explanation.php:18
 msgid "take_action_explanation contribution description"
-msgstr "Estamos recolectando fondos para apoyar la campaña ecuatoriana y pedir que el gobierno anule las nuevas concesiones mineras perjudiciales, y prohíba la minería en áreas protegidas, ecosistemas frágiles, reservas forestales, bosques protectores, fuentes de agua y territorios indígenas.\n"
+msgstr ""
+"Estamos recolectando fondos para apoyar la campaña ecuatoriana y pedir que el "
+"gobierno anule las nuevas concesiones mineras perjudiciales, y prohíba la "
+"minería en áreas protegidas, ecosistemas frágiles, reservas forestales, "
+"bosques protectores, fuentes de agua y territorios indígenas.\n"
 "\n"
-"Paul Golding, ex director ejecutivo de Greenpeace International, igualará los primeros $15,000 de donaciones. Él es un buen tipo. Y los buenos tipos no dejan que los ecosistemas vitales se destruyan.\n"
+"Paul Golding, ex director ejecutivo de Greenpeace International, igualará los "
+"primeros $15,000 de donaciones. Él es un buen tipo. Y los buenos tipos no "
+"dejan que los ecosistemas vitales se destruyan.\n"
 "\n"
-"Tu dinero también ayudará a financiar una segunda campaña organizada por la coalición de grupos de la sociedad civil ecuatoriana, para exigir un diálogo abierto sobre los modelos de desarrollo en el país: 'Extractivismo o Sustentabilidad'. El objetivo será demostrar cómo los modelos de desarrollo basados ​​en la conservación de la biodiversidad, las energías renovables y el potencial humano son mejores para todos. Costa Rica prohibió toda minería a cielo abierto en el 2010, y hoy tiene indicadores socioeconómicos mucho mejores que los de Ecuador. El cambio no solo es posible, pero también necesario"
+"Tu dinero también ayudará a financiar una segunda campaña organizada por la "
+"coalición de grupos de la sociedad civil ecuatoriana, para exigir un diálogo "
+"abierto sobre los modelos de desarrollo en el país: 'Extractivismo o "
+"Sustentabilidad'. El objetivo será demostrar cómo los modelos de desarrollo "
+"basados ​​en la conservación de la biodiversidad, las energías renovables y el "
+"potencial humano son mejores para todos. Costa Rica prohibió toda minería a "
+"cielo abierto en el 2010, y hoy tiene indicadores socioeconómicos mucho "
+"mejores que los de Ecuador. El cambio no solo es posible, pero también "
+"necesario"
 
-#: template-parts/take_action-explanation.php:20
+#: template-parts/take_action-explanation.php:25
 msgid "take_action_explanation crowfunding title"
 msgstr "Haz un donativo"
 
-#: template-parts/take_action-explanation.php:21
+#: template-parts/take_action-explanation.php:26
 msgid "take_action_explanation crowfunding subtitle"
-msgstr "Ayuda a financiar la campaña en las comunides y áreas afectadas, y a través de las redes sociales. Contribuye con lo que puedas."
+msgstr ""
+"Ayuda a financiar la campaña en las comunides y áreas afectadas, y a través de "
+"las redes sociales. Contribuye con lo que puedas."
 
-#: template-parts/take_action-explanation.php:40
+#: template-parts/take_action-explanation.php:30
+#: template-parts/take_action-sign_petition.php:27
+msgid "take_action_sign_petition everyone supporters number"
+msgstr "Únete a nuestros 1200+ partidarios"
+
+#: template-parts/take_action-explanation.php:34
+#: template-parts/take_action-sign_petition.php:31
+msgid "take_action_sign_petition everyone supporters description"
+msgstr ""
+"Firma la petición global en el sitio web del Rainforest Information Center "
+"(Centro de Información de Bosques Nublados)."
+
+#: template-parts/take_action-explanation.php:38
+#: template-parts/take_action-sign_petition.php:35
+msgid "take_action_sign_petition everyone supporters sign"
+msgstr "Firma la petición"
+
+#: template-parts/take_action-explanation.php:47
 msgid "take_action_explanation volunteers title"
 msgstr "Voluntariado"
 
-#: template-parts/take_action-explanation.php:41
+#: template-parts/take_action-explanation.php:48
 msgid "take_action_explanation volunteers subtitle"
 msgstr "Se buscan voluntairos. Propósito de vida garantizado."
+
+#: template-parts/take_action-explanation.php:53
+msgid "take_action_explanation volunteers input first_name placeholder"
+msgstr "Nombre"
+
+#: template-parts/take_action-explanation.php:56
+msgid "take_action_explanation volunteers input last_name placeholder"
+msgstr "Apellido"
+
+#: template-parts/take_action-explanation.php:59
+msgid "take_action_explanation volunteers input email placeholder"
+msgstr "Correo electrónico"
+
+#: template-parts/take_action-explanation.php:63
+msgid "take_action_explanation volunteers button join"
+msgstr "Unirme"
 
 #: template-parts/take_action-header.php:9
 msgid "take_action_header title"
@@ -187,100 +310,38 @@ msgstr "Un llamado global a la acción"
 
 #: template-parts/take_action-header.php:11
 msgid "take_action_header description"
-msgstr "Si quieres salvar uno de los ecosistemas más valiosos del mundo, esta es la petición indicada."
+msgstr ""
+"Si quieres salvar uno de los ecosistemas más valiosos del mundo, esta es la "
+"petición indicada."
 
-#: template-parts/take_action-sign_petition.php:10
+#: template-parts/take_action-sign_petition.php:11
 msgid "take_action_sign_petition ecuadorians title"
 msgstr "Ecuatorianos, firmen aquí si le gusta beber agua limpia"
 
-#: template-parts/take_action-sign_petition.php:11
+#: template-parts/take_action-sign_petition.php:12
 msgid "take_action_sign_petition ecuadorians subtitle"
 msgstr "Solo para ciudadanos ecuatorianos"
 
-#: template-parts/take_action-sign_petition.php:12
+#: template-parts/take_action-sign_petition.php:13
 msgid "take_action_sign_petition ecuadorians description"
-msgstr "Exijamos a nuestro gobierno que 'Prohíba la minería en ecosistemas frágiles, incluyendo reservas naturales, bosques protectores, fuentes de agua y territorios indígenas'. Y que revoque las concesiones ya otorgadas en dichas áreas. ¡Nada menos!"
+msgstr ""
+"Exijamos a nuestro gobierno que 'Prohíba la minería en ecosistemas frágiles, "
+"incluyendo reservas naturales, bosques protectores, fuentes de agua y "
+"territorios indígenas'. Y que revoque las concesiones ya otorgadas en dichas "
+"áreas. ¡Nada menos!"
 
-#: template-parts/take_action-sign_petition.php:18
+#: template-parts/take_action-sign_petition.php:21
 msgid "take_action_sign_petition everyone title"
 msgstr "Gente del mundo, firmen aquí si le gusta respirar aire puro"
 
-#: template-parts/take_action-sign_petition.php:19
+#: template-parts/take_action-sign_petition.php:22
 msgid "take_action_sign_petition everyone subtitle"
 msgstr "Para personas de todas las naciones"
 
-#: template-parts/take_action-sign_petition.php:20
+#: template-parts/take_action-sign_petition.php:23
 msgid "take_action_sign_petition everyone description"
-msgstr "Urge al gobierno de Ecuador para que haga lo correcto, y  'Prohíba la minería en ecosistemas frágiles, incluyendo reservas naturales, bosques protectores, fuentes de agua y territorios indígenas'. Y que revoque las concesiones ya otorgadas en dichas áreas."
-
-#: template-parts/take_action-explanation.php:25
-#: template-parts/take_action-sign_petition.php:24
-msgid "take_action_sign_petition everyone supporters number"
-msgstr "Únete a nuestros 1200+ partidarios"
-
-#: template-parts/take_action-explanation.php:29
-#: template-parts/take_action-sign_petition.php:28
-msgid "take_action_sign_petition everyone supporters description"
-msgstr "Firma la petición global en el sitio web del Rainforest Information Center (Centro de Información de Bosques Nublados)."
-
-#: template-parts/take_action-explanation.php:33
-#: template-parts/take_action-sign_petition.php:32
-msgid "take_action_sign_petition everyone supporters sign"
-msgstr "Firma la petición"
-
-#: footer.php:26
-msgid "footer copywrite"
-msgstr "© 2017. Todos los derechos reservados."
-
-#: functions/widget-newsletter.php:49
-msgid "widget newsletter button suscribe"
-msgstr "Suscríbete"
-
-#: template-parts/take_action-explanation.php:46
-msgid "take_action_explanation volunteers input first_name placeholder"
-msgstr "Nombre"
-
-#: template-parts/take_action-explanation.php:49
-msgid "take_action_explanation volunteers input last_name placeholder"
-msgstr "Apellido"
-
-#: template-parts/take_action-explanation.php:52
-msgid "take_action_explanation volunteers input email placeholder"
-msgstr "Correo electrónico"
-
-#: template-parts/take_action-explanation.php:56
-msgid "take_action_explanation volunteers button join"
-msgstr "Unirme"
-
-#: functions/widget-newsletter.php:46
-msgid "widget newsletter email placeholder"
-msgstr "Tu correo electrónico"
-
-#: inc/template-tags.php:19
-msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
 msgstr ""
-
-#: template-learn-more.php:29
-msgid "learn_more report link"
-msgstr "Lee el reporte"
-
-#: template-parts/content-single.php:13
-msgid "Edit"
-msgstr ""
-
-#: template-parts/content-single.php:34 template-parts/content-single.php:37
-msgid ", "
-msgstr ""
-
-#: template-parts/content-single.php:42
-msgid "This entry was tagged %2$s."
-msgstr ""
-
-#: template-parts/content-single.php:50
-msgid "This entry was posted in %1$s and tagged %2$s."
-msgstr ""
-
-#: template-parts/content-single.php:52
-msgid "This entry was posted in %1$s."
-msgstr ""
-
+"Urge al gobierno de Ecuador para que haga lo correcto, y  'Prohíba la minería "
+"en ecosistemas frágiles, incluyendo reservas naturales, bosques protectores, "
+"fuentes de agua y territorios indígenas'. Y que revoque las concesiones ya "
+"otorgadas en dichas áreas."

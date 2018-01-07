@@ -12,8 +12,12 @@
 				<div class="subtitle"><?php _e('take_action_international subtitle', 'twentysixteen'); ?></div>
 				<div class="description"><?php _e('take_action_international description', 'twentysixteen'); ?></div>
 				<div class="links">
-					<div class="button_light"> <?php _e('take_action_international sign', 'twentysixteen'); ?></div>
-					<div class="button_transparent"> <?php _e('take_action_international donate', 'twentysixteen'); ?></div>
+					<a href="http://www.rainforestinformationcentre.org/save_ecuadors_forests_from_mining" target="_blank">
+						<div class="button_light"> <?php _e('take_action_international sign', 'twentysixteen'); ?></div>
+					</a>
+					<a href="https://www.fundmyplanet.org/campaign/11/save-ecuadors-forests-from-mining" target="_blank">
+						<div class="button_transparent"> <?php _e('take_action_international donate', 'twentysixteen'); ?></div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -23,8 +27,12 @@
 				<div class="subtitle"><?php _e('take_action_ecuador subtitle', 'twentysixteen'); ?></div>
 				<div class="description"><?php _e('take_action_ecuador description', 'twentysixteen'); ?></div>
 				<div class="links">
-					<div class="button_light"> <?php _e('take_action_ecuador sign', 'twentysixteen'); ?></div>
-					<div class="button_transparent"> <?php _e('take_action_ecuador donate', 'twentysixteen'); ?></div>
+					<a href="https://www.change.org/p/salvemoslosandes-de-ellos-depende-el-futuro-del-ecuador?recruiter=78858261&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition" target="_blank">
+						<div class="button_light"> <?php _e('take_action_ecuador sign', 'twentysixteen'); ?></div>
+					</a>
+					<a href="https://www.fundmyplanet.org/campaign/11/save-ecuadors-forests-from-mining" target="_blank">
+						<div class="button_transparent"> <?php _e('take_action_ecuador donate', 'twentysixteen'); ?></div>
+					</a>	
 				</div>
 			</div>
 		</div>

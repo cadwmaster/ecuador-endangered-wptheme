@@ -4,7 +4,7 @@ if ( ! function_exists( 'template_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
  */
-function template_posted_on() {
+function template_posted_on($show_autor=true) {
 	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) )
 		$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
@@ -16,16 +16,20 @@ function template_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="posted-on">Published %1$s</span><span class="byline"> by %2$s</span>', 'sixteen' ),
+	printf( __( '<span class="posted-on">Published %1$s</span>', 'sixteen' ),
 		sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
 			esc_url( get_permalink() ),
 			$time_string
-		),
-		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s">%2$s</a></span>',
-			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-			esc_html( get_the_author() )
 		)
 	);
+
+	if ($show_autor) {
+		printf( __( '<span class="byline"> by %1$s</span>', 'sixteen' ),
+			sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s">%2$s</a></span>',
+				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+				esc_html( get_the_author() ))
+		);
+	}	
 }
 endif;
 
@@ -74,3 +78,10 @@ function theme_pagination() {
         echo '</ul></div></div>';
     }
 }
+
+function the_content_formatted( $more_link_text = null, $strip_teaser = false) {
+	$content = get_the_content( $more_link_text, $strip_teaser );
+	$content = apply_filters( 'the_content', $content );
+	$content = str_replace( ']]>', ']]&gt;', $content );
+	echo $content;
+  }

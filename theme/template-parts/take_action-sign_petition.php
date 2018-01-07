@@ -30,7 +30,7 @@
 					<div class="description">
 						<?php _e('take_action_sign_petition everyone supporters description', 'twentysixteen'); ?>
 					</div>
-					<a href="http://www.rainforestinformationcentre.org/save_ecuadors_forests_from_mining">
+					<a href="http://www.rainforestinformationcentre.org/save_ecuadors_forests_from_mining" target="_blank">
 						<div class="button-sign">
 							<?php _e('take_action_sign_petition everyone supporters sign', 'twentysixteen'); ?>
 						</div>
