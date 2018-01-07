@@ -34,7 +34,9 @@ if ( $category_query->have_posts() ) :
         $report .= '<div class="content">'. PHP_EOL;
         $report .= '<div class="title">' . get_the_title() . '</div>'. PHP_EOL;
         $report .= '<div class="description">' . get_the_content() . '</div>'. PHP_EOL;
-        $report .= '<div class="link"><a href="' . get_field('link_to_source') . '">' . __('learn_more report link', 'twentysixteen') . '</a></div>'. PHP_EOL;
+        if (get_field('label_to_source') and get_field('link_to_source')) {
+            $report .= '<div class="link"><a href="' . get_field('link_to_source') . '">' .  get_field('label_to_source') . '</a></div>'. PHP_EOL;
+        }
         $report .= '</div>'. PHP_EOL;
         $report .= '</div>';
         array_push($reports, $report);

@@ -15,8 +15,8 @@
 				echo the_content_formatted();
 			?>
 			<div class="entry-link">
-			<?php if (get_field('link_to_source')) :?>
-				<a href="<?php echo get_field('link_to_source');?>"><?php _e('learn_more report link', 'twentysixteen'); ?></a>
+			<?php if (get_field('link_to_source') and get_field('label_to_source')) :?>
+				<a href="<?php echo get_field('link_to_source');?>"><?php echo get_field('label_to_source'); ?></a>
 			<?php endif; ?>
 			</div>
 		</div><!-- .entry-content -->
