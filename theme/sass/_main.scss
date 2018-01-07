@@ -653,7 +653,7 @@ section#news .content-wrapper {
     width: 100%;
 }
 
-.content-area h2 {
+.content-area h1,h2 {
     color: var(--font-color-fourd);
     font-size: var(--font-size-xxl);
     text-align: center;
@@ -665,16 +665,14 @@ section#news .content-wrapper {
     width: calc(100% - 80px);
 }
 
-body:not(.search-results) #category article:not(.type-page) .entry-content{
-    float: none;
-    margin: 40px auto;
-}
-
 .content-area article header {
     max-width: $content-width;
     margin: 0 auto;
     margin-top: 40px;
-    
+}
+
+.content-area .single-post .entry-content {
+    float: none;
 }
 
 .content-area .entry-title {

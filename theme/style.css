@@ -551,7 +551,7 @@ section#news .content-wrapper {
   margin: 0px;
   width: 100%; }
 
-.content-area h2 {
+.content-area h1, h2 {
   color: var(--font-color-fourd);
   font-size: var(--font-size-xxl);
   text-align: center;
@@ -561,14 +561,13 @@ section#news .content-wrapper {
   margin: 0 40px;
   width: calc(100% - 80px); }
 
-body:not(.search-results) #category article:not(.type-page) .entry-content {
-  float: none;
-  margin: 40px auto; }
-
 .content-area article header {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px; }
+
+.content-area .single-post .entry-content {
+  float: none; }
 
 .content-area .entry-title {
   font-size: var(--font-size-xl);
@@ -761,37 +760,6 @@ section#custom-sidebar {
 .content input[type="submit"]:hover {
   background-color: var(--color-button); }
 
-/*  */
-/* MEDIA QUERIES */
-/*  */
-@media all and (min-width: 300px) {
-  .site-header {
-    height: 120px;
-    padding: 0 20px; }
-  .site-branding {
-    flex: 1 auto;
-    order: 1; }
-  .language-navigation {
-    flex: 3 auto;
-    order: 2; }
-  .main-navigation {
-    flex: 1 100%;
-    order: 3; } }
-
-@media screen and (min-width: 61.5625em) {
-  .site-header {
-    height: 70px;
-    padding: 0 20px; }
-  .site-branding {
-    flex: 1 auto;
-    order: 1; }
-  .language-navigation {
-    flex: 1 auto;
-    order: 3; }
-  .main-navigation {
-    flex: 1 auto;
-    order: 2; } }
-
 /* Pagination
 -----------------------------------------------*/
 .pagination {
@@ -906,3 +874,34 @@ section#category {
         float: none;
         margin: 40px 20px;
         width: auto; }
+
+@media all and (min-width: 300px) {
+  .site-header {
+    height: 120px;
+    padding: 0 20px; }
+  .site-branding {
+    flex: 1 auto;
+    order: 1; }
+  .language-navigation {
+    flex: 3 auto;
+    order: 2; }
+  .main-navigation {
+    flex: 1 100%;
+    order: 3; } }
+
+@media screen and (min-width: 61.5625em) {
+  .site-header {
+    height: 70px;
+    padding: 0 20px; }
+  .site-branding {
+    flex: 1 auto;
+    order: 1; }
+  .language-navigation {
+    flex: 1 auto;
+    order: 3; }
+  .main-navigation {
+    flex: 1 auto;
+    order: 2; }
+  body:not(.search-results) article:not(.type-page) .entry-content {
+    float: none;
+    width: auto; } }

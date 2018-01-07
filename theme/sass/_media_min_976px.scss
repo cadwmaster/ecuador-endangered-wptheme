@@ -15,4 +15,9 @@
         flex: 1 auto;
         order: 2;
     }
+
+    body:not(.search-results) article:not(.type-page) .entry-content {
+        float: none;
+        width: auto;
+    }
 }
