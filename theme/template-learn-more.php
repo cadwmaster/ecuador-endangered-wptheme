@@ -23,6 +23,7 @@ $category_query_args = array(
 	'order'	=> 'ASC'
 );
 
+$youtubeId = get_field('youtube_id');
 $category_query = new WP_Query( $category_query_args );
 $reports = array();
 echo '<div class="reports">'. PHP_EOL;
@@ -43,9 +44,9 @@ if ( $category_query->have_posts() ) :
     endwhile;
 endif;
 
-if (get_field('youtube_id')) {
+if ($youtubeId) {
     $video  = '<div class="wrapper-video">';
-    $video .= '<iframe width="560" height="315" src="https://www.youtube.com/embed/'.get_field('youtube_id').'" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>';
+    $video .= '<iframe width="560" height="315" src="https://www.youtube.com/embed/' . $youtubeId . '" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>';
     $video .= '</div>';
     array_splice( $reports, 2 , 0, $video );
 }
