@@ -577,6 +577,10 @@ section#news .content-wrapper {
 
 .content-area .single-post .entry-content {
   float: none; }
+  .content-area .single-post .entry-content .autor {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: var(--font-size-xs); }
 
 .content-area .entry-title {
   font-size: var(--font-size-xl);

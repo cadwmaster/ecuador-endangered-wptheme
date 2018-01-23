@@ -17,10 +17,7 @@ function template_posted_on($show_autor=true) {
 	);
 
 	printf( __( '<span class="posted-on">Published %1$s</span>', 'sixteen' ),
-		sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
-			esc_url( get_permalink() ),
-			$time_string
-		)
+		sprintf( '%1$s', $time_string)
 	);
 
 	if ($show_autor) {

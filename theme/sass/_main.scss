@@ -682,6 +682,11 @@ section#news .content-wrapper {
 
 .content-area .single-post .entry-content {
     float: none;
+    .autor {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: var(--font-size-xs);
+    }
 }
 
 .content-area .entry-title {
