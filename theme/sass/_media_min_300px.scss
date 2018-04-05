@@ -1,4 +1,12 @@
 @media all and (min-width: 300px) {
+    #main-banner .content {
+        top: 50px;
+        width: 90%;
+
+        .slogan {
+            font-size: $font-size-l;
+        }
+    }
     .site-header {
         height: 120px;
         padding: 0 20px;

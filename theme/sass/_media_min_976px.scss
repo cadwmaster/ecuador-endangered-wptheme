@@ -1,4 +1,18 @@
 @media screen and (min-width: 61.5625em) {
+    /* TAKE ACTION - EXPLANATION */
+    .take_action-explanation .explanation {
+        flex: 1;
+    }
+    .take_action-sign_petition .petition {
+        flex: 1;
+    }
+    .take_action-extras .extra {
+        flex: 1;
+    }
+    /* TAKE ACTION CONTENT */
+    .content-take_action > div {
+        width: 50%;
+    }
     .site-header {
         height: 70px;
         padding: 0 20px;

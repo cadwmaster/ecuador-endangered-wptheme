@@ -350,13 +350,15 @@ section#news .content-wrapper {
 
 .content-take_action > div {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     margin: 0;
     font-size: var(--font-size-xs);
     color: var(--font-color-first);
     text-align: center;
     vertical-align: top;
     height: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content-take_action .international {
@@ -450,17 +452,15 @@ section#news .content-wrapper {
     margin: 0 auto;
     margin-top: 10px;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .take_action-sign_petition .petition {
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 40px;
     text-align: center;
     min-height: 500px;
-    width: 40%;
-    flex: 1;
     border: 1px solid var(--color-divider);
+    flex: 1 100%;
 }
 
 .petition .wrapper {
@@ -553,15 +553,13 @@ section#news .content-wrapper {
 .take_action-explanation {
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .take_action-explanation .explanation {
-    padding-left: 5%;
-    padding-right: 5%;
     text-align: center;
     min-height: 500px;
-    width: 40%;
-    flex: 1;
+    flex: 1 100%;
 }
 
 .explanation.signature {
@@ -608,18 +606,15 @@ section#news .content-wrapper {
 .take_action-extras {
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .take_action-extras .extra {
-    padding-left: 5%;
-    padding-right: 5%;
     padding-bottom: 40px;
     text-align: center;
     min-height: 500px;
-    width: 40%;
-    flex: 1;
     border: 1px solid var(--color-divider);
-    
+    flex: 1 100%;
 }
 
 .extra .wrapper {
