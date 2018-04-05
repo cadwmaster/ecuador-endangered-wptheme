@@ -16,7 +16,7 @@
 			?>
 			<div class="entry-link">
 			<?php if (get_field('link_to_source') and get_field('label_to_source')) :?>
-				<a href="<?php echo get_field('link_to_source');?>"><?php echo get_field('label_to_source'); ?></a>
+				<a href="<?php echo get_field('link_to_source');?>" target="_blank"><?php echo get_field('label_to_source'); ?></a>
 			<?php endif; ?>
 			</div>
 		</div><!-- .entry-content -->
