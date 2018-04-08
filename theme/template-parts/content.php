@@ -15,9 +15,12 @@
 				echo the_content_formatted();
 			?>
 			<div class="entry-link">
-			<?php if (get_field('link_to_source') and get_field('label_to_source')) :?>
-				<a href="<?php echo get_field('link_to_source');?>" target="_blank"><?php echo get_field('label_to_source'); ?></a>
-			<?php endif; ?>
+			<?php 
+			if (get_field('link_to_source') and get_field('label_to_source')) {
+				$target = get_field('target_to_source') ?: '_blank';
+				echo '<a href="'. get_field('link_to_source') . '" target="' . $target . '">' . get_field('label_to_source') . '</a>';
+			}	
+			?>
 			</div>
 		</div><!-- .entry-content -->
 	</div>
